@@ -35,18 +35,19 @@ class LocalizationNode(Node):
         x_m, y_m = self.proj_dd_to_meters(msg.longitude, msg.latitude)
         x = x_m - self.ref_x
         y = y_m - self.ref_y
-        
+        self.x[0, 0] = x
+        self.x[1, 0] = y
         # Mise à jour avec Kalman (on corrige avec GNSS)
-        y_mesure = np.array([[x], [y], [self.x[2, 0]]])  # On garde l'ancien cap
-        self.x, self.Gamma = self.kalman(self.x, self.Gamma, self.u, y_mesure, self.Gamma_alpha, self.Gamma_beta, self.A, self.C)
+        #y_mesure = np.array([[x], [y], [self.x[2, 0]]])  # On garde l'ancien cap
+        #self.x, self.Gamma = self.kalman(self.x, self.Gamma, self.u, y_mesure, self.Gamma_alpha, self.Gamma_beta, self.A, self.C)
         self.publish_position()
     
     def imu_callback(self, msg: RPY):
         yaw = msg.yaw  # Le cap est donné par l'IMU
-        
+        self.x[2, 0] = yaw
         # Mise à jour avec Kalman (on corrige uniquement le cap)
-        y_mesure = np.array([[self.x[0, 0]], [self.x[1, 0]], [yaw]])  # On garde la position précédente
-        self.x, self.Gamma = self.kalman(self.x, self.Gamma, self.u , y_mesure, self.Gamma_alpha, self.Gamma_beta, self.A, self.C)
+        #y_mesure = np.array([[self.x[0, 0]], [self.x[1, 0]], [yaw]])  # On garde la position précédente
+        #self.x, self.Gamma = self.kalman(self.x, self.Gamma, self.u , y_mesure, self.Gamma_alpha, self.Gamma_beta, self.A, self.C)
         self.publish_position()
     
     def publish_position(self):

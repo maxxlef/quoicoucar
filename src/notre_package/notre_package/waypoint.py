@@ -12,7 +12,8 @@ class MissionNode(Node):
             [0, 0], [10, 0], [20, 5], [30, 10], [40, 20], 
             [30, 30], [20, 35], [10, 40], [0, 30], [-5, 15]
         ])
-        self.current_wp_idx = 0  # Index du waypoint actuel
+        self.previous_wp_idx = 0
+        self.current_wp_idx = 1  # Index du waypoint actuel
         self.threshold_distance = 2.0  # Distance pour changer de waypoint
 
         # Souscription à la position du robot
@@ -31,17 +32,18 @@ class MissionNode(Node):
         wp_x, wp_y = self.waypoints[self.current_wp_idx]
         distance = np.sqrt((wp_x - x) ** 2 + (wp_y - y) ** 2)
 
+
         # Vérification si on doit passer au waypoint suivant
         if distance < self.threshold_distance:
+            self.previous_wp_idx = self.current_wp_idx
             self.current_wp_idx += 1
             if self.current_wp_idx >= len(self.waypoints):
                 self.current_wp_idx = 0  # Boucle sur les waypoints
-
             self.publish_waypoint()
 
     def publish_waypoint(self):
         msg = Float32MultiArray()
-        msg.data = [self.waypoints[self.current_wp_idx][0], self.waypoints[self.current_wp_idx][1]]
+        msg.data = [self.waypoints[self.current_wp_idx][0], self.waypoints[self.current_wp_idx][1],self.waypoints[self.previous_wp_idx][0], self.waypoints[self.previous_wp_idx][1]]
         self.wp_publisher.publish(msg)
         self.get_logger().info(f'Waypoint actuel: Index {self.current_wp_idx}, Position {msg.data}')
 
