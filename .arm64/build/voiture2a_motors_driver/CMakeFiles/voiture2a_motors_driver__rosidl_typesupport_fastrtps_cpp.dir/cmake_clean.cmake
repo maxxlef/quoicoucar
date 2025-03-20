@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/voiture2a_motors_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/voiture2a_motors_driver/msg/detail/dds_fastrtps/engine__type_support.cpp.o"
+  "CMakeFiles/voiture2a_motors_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/voiture2a_motors_driver/msg/detail/dds_fastrtps/engine__type_support.cpp.o.d"
+  "CMakeFiles/voiture2a_motors_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/voiture2a_motors_driver/msg/detail/dds_fastrtps/motors_state__type_support.cpp.o"
+  "CMakeFiles/voiture2a_motors_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/voiture2a_motors_driver/msg/detail/dds_fastrtps/motors_state__type_support.cpp.o.d"
+  "libvoiture2a_motors_driver__rosidl_typesupport_fastrtps_cpp.pdb"
+  "libvoiture2a_motors_driver__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/voiture2a_motors_driver/msg/detail/dds_fastrtps/engine__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/voiture2a_motors_driver/msg/detail/dds_fastrtps/motors_state__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/voiture2a_motors_driver/msg/detail/engine__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/voiture2a_motors_driver/msg/detail/motors_state__rosidl_typesupport_fastrtps_cpp.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/voiture2a_motors_driver__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,7 @@
+{
+  "package_name": "voiture2a_motors_driver",
+  "non_idl_tuples": [
+    "/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/voiture2a_motors_driver:msg/MotorsState.msg",
+    "/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/voiture2a_motors_driver:msg/Engine.msg"
+  ]
+}

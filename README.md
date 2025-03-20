@@ -16,3 +16,5 @@ Todo
 
 robi:
 sudo docker run --platform linux/arm64 -v /home/robi/Ensta_2A/ros/voiture2A-ros-main:/home -it arm64v8/ros
+
+recompile car j'ai modifié des noms de node

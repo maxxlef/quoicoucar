@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-99f1b218954e557cad1f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "Fusion",
+					"jsonFile" : "directory-Fusion-19eea41d94816a1a5d06.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Fusion",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "icm20948_driver__py",
+					"jsonFile" : "directory-icm20948_driver__py-46d05b834a687ff21a93.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/build/icm20948_driver/icm20948_driver__py",
+					"targetIndexes" : 
+					[
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "icm20948_driver",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "Fusion::@e3c4586041f568f88a27",
+					"jsonFile" : "target-Fusion-94d06c201ed3541dec6a.json",
+					"name" : "Fusion",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_icm20948_driver_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_icm20948_driver_egg-aa40140a8ffcf2822eef.json",
+					"name" : "ament_cmake_python_build_icm20948_driver_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_icm20948_driver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_icm20948_driver-93023d359a886553ebc1.json",
+					"name" : "ament_cmake_python_copy_icm20948_driver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "icm20948::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-icm20948-e6a082814d7be4958ef3.json",
+					"name" : "icm20948",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "icm20948_driver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-icm20948_driver-dfbcb6ab3e1d49c7f832.json",
+					"name" : "icm20948_driver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "icm20948_driver__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-icm20948_driver__cpp-48bcf8f031b56619b07b.json",
+					"name" : "icm20948_driver__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "icm20948_driver__py::@099645b44c9e9f41ada4",
+					"jsonFile" : "target-icm20948_driver__py-2c7e605c8f4d5a00d4eb.json",
+					"name" : "icm20948_driver__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "icm20948_driver__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-icm20948_driver__rosidl_generator_c-e6cf234c0220e6cb5b0d.json",
+					"name" : "icm20948_driver__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "icm20948_driver__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-icm20948_driver__rosidl_generator_py-ee005cf2eabb39db3169.json",
+					"name" : "icm20948_driver__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "icm20948_driver__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-icm20948_driver__rosidl_typesupport_c-f7dae30d1dc7f4439b30.json",
+					"name" : "icm20948_driver__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "icm20948_driver__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-icm20948_driver__rosidl_typesupport_c__pyext-5a986b1ee8d0315a7f06.json",
+					"name" : "icm20948_driver__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "icm20948_driver__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-icm20948_driver__rosidl_typesupport_cpp-35a28d074f997cc50586.json",
+					"name" : "icm20948_driver__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "icm20948_driver__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-icm20948_driver__rosidl_typesupport_fastrtps_c-d6ec9d01c71d1945da3a.json",
+					"name" : "icm20948_driver__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "icm20948_driver__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-icm20948_driver__rosidl_typesupport_fastrtps_c__pyext-111750e4efff38078149.json",
+					"name" : "icm20948_driver__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "icm20948_driver__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-icm20948_driver__rosidl_typesupport_fastrtps_cpp-d6b2c99512d43d0d59a2.json",
+					"name" : "icm20948_driver__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "icm20948_driver__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-icm20948_driver__rosidl_typesupport_introspection_c-e304f9b668f64ba9532e.json",
+					"name" : "icm20948_driver__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "icm20948_driver__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-icm20948_driver__rosidl_typesupport_introspection_c__pyext-f7ee1362da2eb145a78f.json",
+					"name" : "icm20948_driver__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "icm20948_driver__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-icm20948_driver__rosidl_typesupport_introspection_cpp-baae4226994a3f7de061.json",
+					"name" : "icm20948_driver__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "icm20948_driver_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-icm20948_driver_uninstall-29a4c89fe53be329586c.json",
+					"name" : "icm20948_driver_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-109c9dd9a677b3f2e329.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/build/icm20948_driver",
+		"source" : "/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

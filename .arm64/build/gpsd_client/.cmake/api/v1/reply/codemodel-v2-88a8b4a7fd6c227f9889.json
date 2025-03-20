@@ -1,0 +1,251 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-fd67cc9f4de4f9bb5657.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "gpsd_client__py",
+					"jsonFile" : "directory-gpsd_client__py-e4b0adac095ddd76d553.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/voiture2A-ros/build/gpsd_client/gpsd_client__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "gpsd_client",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_gpsd_client_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_gpsd_client_egg-2c98ae59b8cd95e39b57.json",
+					"name" : "ament_cmake_python_build_gpsd_client_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_gpsd_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_gpsd_client-be1d55d1e20be31724e1.json",
+					"name" : "ament_cmake_python_copy_gpsd_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gpsd_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gpsd_client-134ffd19a70d0b22b0c1.json",
+					"name" : "gpsd_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gpsd_client__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gpsd_client__cpp-5acf61bd2f8d90283a24.json",
+					"name" : "gpsd_client__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gpsd_client__py::@6c5805c1dec935237dcd",
+					"jsonFile" : "target-gpsd_client__py-1f63254a2d872a8941a7.json",
+					"name" : "gpsd_client__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gpsd_client__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gpsd_client__rosidl_generator_c-0e9d99e0ccdf9712f812.json",
+					"name" : "gpsd_client__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gpsd_client__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gpsd_client__rosidl_generator_py-34ef07a999697c663242.json",
+					"name" : "gpsd_client__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gpsd_client__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gpsd_client__rosidl_generator_type_description-271ced2491ace5e6214c.json",
+					"name" : "gpsd_client__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gpsd_client__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gpsd_client__rosidl_typesupport_c-b92878c312cec664b5fc.json",
+					"name" : "gpsd_client__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gpsd_client__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gpsd_client__rosidl_typesupport_c__pyext-0b9e2ad0b4677fa70caf.json",
+					"name" : "gpsd_client__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gpsd_client__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gpsd_client__rosidl_typesupport_cpp-07757406baae5dfc9cba.json",
+					"name" : "gpsd_client__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gpsd_client__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gpsd_client__rosidl_typesupport_fastrtps_c-229c393260c472a0d9a9.json",
+					"name" : "gpsd_client__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gpsd_client__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gpsd_client__rosidl_typesupport_fastrtps_c__pyext-fff5ef79c83d3b1b3f2c.json",
+					"name" : "gpsd_client__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gpsd_client__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gpsd_client__rosidl_typesupport_fastrtps_cpp-afd4a8e8b6d62f827419.json",
+					"name" : "gpsd_client__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gpsd_client__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gpsd_client__rosidl_typesupport_introspection_c-949e5b550f0039b92a1e.json",
+					"name" : "gpsd_client__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gpsd_client__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gpsd_client__rosidl_typesupport_introspection_c__pyext-1bcc12b96b36a08ca02e.json",
+					"name" : "gpsd_client__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gpsd_client__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gpsd_client__rosidl_typesupport_introspection_cpp-080ff9383a0f9cb3c35d.json",
+					"name" : "gpsd_client__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gpsd_client_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gpsd_client_uninstall-2ad7e22e541dae53ce6f.json",
+					"name" : "gpsd_client_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gpsd_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gpsd_node-2a07ddc06f794586a08e.json",
+					"name" : "gpsd_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-67462b7d34157eed30ff.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/voiture2A-ros/build/gpsd_client",
+		"source" : "/voiture2A-ros/src/gpsd_client"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

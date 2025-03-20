@@ -1,0 +1,8 @@
+{
+  "package_name": "voiture2a_motors_driver",
+  "output_dir": "/voiture2A-ros/build/voiture2a_motors_driver/rosidl_generator_type_description/voiture2a_motors_driver",
+  "idl_tuples": [
+    "/voiture2A-ros/build/voiture2a_motors_driver/rosidl_adapter/voiture2a_motors_driver:msg/MotorsState.idl",
+    "/voiture2A-ros/build/voiture2a_motors_driver/rosidl_adapter/voiture2a_motors_driver:msg/Engine.idl"
+  ]
+}

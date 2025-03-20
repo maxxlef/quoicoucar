@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "gpsd_client__py",
+		"source" : "/voiture2A-ros/build/gpsd_client/gpsd_client__py"
+	}
+}

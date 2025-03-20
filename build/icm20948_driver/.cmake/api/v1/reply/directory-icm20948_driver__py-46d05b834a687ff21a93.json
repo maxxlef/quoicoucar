@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "icm20948_driver__py",
+		"source" : "/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/build/icm20948_driver/icm20948_driver__py"
+	}
+}

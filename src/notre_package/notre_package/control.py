@@ -7,14 +7,14 @@ from std_msgs.msg import Float32MultiArray
 
 class WaypointFollower(Node):
     def __init__(self):
-        super().__init__('waypoint_follower')
+        super().__init__('control_node')
         
         # Publishers
         self.cmd_vel_pub = self.create_publisher(Twist, 'cmd_vel', 10)
         
         # Subscribers
         self.create_subscription(Float32MultiArray, 'position', self.position_callback, 10)
-        self.create_subscription(Float32MultiArray, 'waypoints', self.waypoints_callback, 10)
+        self.create_subscription(Float32MultiArray, 'current_waypoints', self.waypoints_callback, 10)
         
         self.current_pose = None
         self.waypoints = []

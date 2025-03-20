@@ -1,0 +1,17 @@
+In file included from [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/voiture2a_motors_driver/src/motors.cpp:1[m[K:
+[01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/voiture2a_motors_driver/include/voiture2a_motors_driver/motors.h:14:10:[m[K [01;31m[Kfatal error: [m[Ki2c/smbus.h: No such file or directory
+   14 | #include [01;31m[K<i2c/smbus.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/motors_node.dir/build.make:90: CMakeFiles/motors_node.dir/src/motors.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/voiture2a_motors_driver/include/voiture2a_motors_driver/motors_node.h:8[m[K,
+                 from [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/voiture2a_motors_driver/src/motors_node.cpp:1[m[K:
+[01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/voiture2a_motors_driver/include/voiture2a_motors_driver/motors.h:14:10:[m[K [01;31m[Kfatal error: [m[Ki2c/smbus.h: No such file or directory
+   14 | #include [01;31m[K<i2c/smbus.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/motors_node.dir/build.make:76: CMakeFiles/motors_node.dir/src/motors_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/motors_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

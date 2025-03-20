@@ -1,0 +1,4 @@
+source;share/voiture2a_motors_driver/local_setup.bash
+source;share/voiture2a_motors_driver/local_setup.dsv
+source;share/voiture2a_motors_driver/local_setup.sh
+source;share/voiture2a_motors_driver/local_setup.zsh

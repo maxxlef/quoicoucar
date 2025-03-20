@@ -1,0 +1,6 @@
+{
+  "package_name": "gpsd_client",
+  "non_idl_tuples": [
+    "/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/gpsd_client:msg/GpsFix.msg"
+  ]
+}

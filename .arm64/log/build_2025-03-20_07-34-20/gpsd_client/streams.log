@@ -1,0 +1,239 @@
+[0.107s] Invoking command in '/voiture2A-ros/build/gpsd_client': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake /voiture2A-ros/src/gpsd_client -DCMAKE_INSTALL_PREFIX=/voiture2A-ros/install/gpsd_client
+[1.198s] -- The C compiler identification is GNU 11.4.0
+[1.505s] -- The CXX compiler identification is GNU 11.4.0
+[1.566s] -- Detecting C compiler ABI info
+[2.471s] -- Detecting C compiler ABI info - done
+[2.521s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.523s] -- Detecting C compile features
+[2.525s] -- Detecting C compile features - done
+[2.541s] -- Detecting CXX compiler ABI info
+[3.426s] -- Detecting CXX compiler ABI info - done
+[3.477s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.478s] -- Detecting CXX compile features
+[3.480s] -- Detecting CXX compile features - done
+[3.497s] -- Found ament_cmake: 2.3.2 (/opt/ros/rolling/share/ament_cmake/cmake)
+[5.043s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[5.541s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/rolling/share/rosidl_default_generators/cmake)
+[5.557s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.730s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.896s] -- Found rosidl_adapter: 4.5.1 (/opt/ros/rolling/share/rosidl_adapter/cmake)
+[5.922s] -- Found rclcpp: 27.0.0 (/opt/ros/rolling/share/rclcpp/cmake)
+[6.844s] -- Found rmw_implementation_cmake: 7.3.0 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+[6.852s] -- Found rmw_fastrtps_cpp: 8.2.0 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)
+[7.567s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.646s] -- Found FastRTPS: /opt/ros/rolling/include  
+[7.806s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.842s] -- Found std_msgs: 5.3.0 (/opt/ros/rolling/share/std_msgs/cmake)
+[11.471s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/rolling/share/ament_cmake_ros/cmake)
+[13.154s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[15.359s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[15.542s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[15.547s] -- Found python_cmake_module: 0.11.0 (/opt/ros/rolling/share/python_cmake_module/cmake)
+[15.739s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[15.740s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[15.740s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[15.741s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[15.917s] -- Found PythonExtra: .so  
+[16.263s] -- Configuring done
+[16.466s] -- Generating done
+[16.553s] -- Build files have been written to: /voiture2A-ros/build/gpsd_client
+[16.594s] Invoked command in '/voiture2A-ros/build/gpsd_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake /voiture2A-ros/src/gpsd_client -DCMAKE_INSTALL_PREFIX=/voiture2A-ros/install/gpsd_client
+[16.602s] Invoking command in '/voiture2A-ros/build/gpsd_client': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /voiture2A-ros/build/gpsd_client -- -j16 -l16
+[17.206s] [  2%] Generating type hashes for ROS interfaces
+[17.279s] [  2%] Built target ament_cmake_python_copy_gpsd_client
+[18.634s] running egg_info
+[18.638s] creating gpsd_client.egg-info
+[18.639s] writing gpsd_client.egg-info/PKG-INFO
+[18.641s] writing dependency_links to gpsd_client.egg-info/dependency_links.txt
+[18.643s] writing top-level names to gpsd_client.egg-info/top_level.txt
+[18.643s] writing manifest file 'gpsd_client.egg-info/SOURCES.txt'
+[18.656s] reading manifest file 'gpsd_client.egg-info/SOURCES.txt'
+[18.659s] writing manifest file 'gpsd_client.egg-info/SOURCES.txt'
+[18.821s] [  2%] Built target ament_cmake_python_build_gpsd_client_egg
+[20.511s] [  2%] Built target gpsd_client__rosidl_generator_type_description
+[20.646s] [  5%] Generating C code for ROS interfaces
+[20.798s] [  8%] Generating C++ code for ROS interfaces
+[25.363s] [  8%] Built target gpsd_client__cpp
+[25.698s] [ 11%] Building C object CMakeFiles/gpsd_client__rosidl_generator_c.dir/rosidl_generator_c/gpsd_client/msg/detail/gps_fix__description.c.o
+[25.739s] [ 13%] Building C object CMakeFiles/gpsd_client__rosidl_generator_c.dir/rosidl_generator_c/gpsd_client/msg/detail/gps_fix__functions.c.o
+[25.748s] [ 16%] Building C object CMakeFiles/gpsd_client__rosidl_generator_c.dir/rosidl_generator_c/gpsd_client/msg/detail/gps_fix__type_support.c.o
+[26.810s] [ 19%] Linking C shared library libgpsd_client__rosidl_generator_c.so
+[27.411s] [ 19%] Built target gpsd_client__rosidl_generator_c
+[27.705s] [ 22%] Generating C introspection for ROS interfaces
+[27.735s] [ 25%] Generating C type support dispatch for ROS interfaces
+[27.787s] [ 30%] Generating C++ type support dispatch for ROS interfaces
+[27.797s] [ 30%] Generating C++ type support for eProsima Fast-RTPS
+[27.855s] [ 33%] Generating C type support for eProsima Fast-RTPS
+[27.856s] [ 36%] Generating C++ introspection for ROS interfaces
+[37.551s] [ 38%] Building CXX object CMakeFiles/gpsd_client__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gpsd_client/msg/gps_fix__type_support.cpp.o
+[37.960s] [ 41%] Building CXX object CMakeFiles/gpsd_client__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gpsd_client/msg/detail/gps_fix__type_support.cpp.o
+[38.859s] [ 44%] Building CXX object CMakeFiles/gpsd_client__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gpsd_client/msg/detail/gps_fix__type_support_c.cpp.o
+[40.536s] [ 47%] Building C object CMakeFiles/gpsd_client__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gpsd_client/msg/detail/gps_fix__type_support.c.o
+[41.009s] [ 50%] Building CXX object CMakeFiles/gpsd_client__rosidl_typesupport_c.dir/rosidl_typesupport_c/gpsd_client/msg/gps_fix__type_support.cpp.o
+[41.594s] [ 52%] Building CXX object CMakeFiles/gpsd_client__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gpsd_client/msg/detail/dds_fastrtps/gps_fix__type_support.cpp.o
+[42.242s] [ 55%] Linking C shared library libgpsd_client__rosidl_typesupport_introspection_c.so
+[42.508s] [ 58%] Linking CXX shared library libgpsd_client__rosidl_typesupport_c.so
+[43.021s] [ 58%] Built target gpsd_client__rosidl_typesupport_introspection_c
+[43.274s] [ 58%] Built target gpsd_client__rosidl_typesupport_c
+[45.082s] [ 61%] Linking CXX shared library libgpsd_client__rosidl_typesupport_cpp.so
+[45.684s] [ 61%] Built target gpsd_client__rosidl_typesupport_cpp
+[45.759s] [ 63%] Linking CXX shared library libgpsd_client__rosidl_typesupport_introspection_cpp.so
+[45.845s] [ 66%] Linking CXX shared library libgpsd_client__rosidl_typesupport_fastrtps_c.so
+[45.997s] [ 69%] Building CXX object CMakeFiles/gpsd_node.dir/src/gpsd_node.cpp.o
+[46.387s] [ 69%] Built target gpsd_client__rosidl_typesupport_introspection_cpp
+[46.442s] [ 69%] Built target gpsd_client__rosidl_typesupport_fastrtps_c
+[48.103s] [ 72%] Linking CXX shared library libgpsd_client__rosidl_typesupport_fastrtps_cpp.so
+[48.630s] [ 72%] Built target gpsd_client__rosidl_typesupport_fastrtps_cpp
+[48.916s] [ 72%] Built target gpsd_client
+[49.244s] [ 75%] Generating Python code for ROS interfaces
+[56.160s] [ 75%] Built target gpsd_client__py
+[56.439s] [ 77%] Building C object CMakeFiles/gpsd_client__rosidl_generator_py.dir/rosidl_generator_py/gpsd_client/msg/_gps_fix_s.c.o
+[57.546s] [ 80%] Linking C shared library libgpsd_client__rosidl_generator_py.so
+[57.927s] [ 80%] Built target gpsd_client__rosidl_generator_py
+[58.211s] [ 88%] Building C object CMakeFiles/gpsd_client__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/gpsd_client/_gpsd_client_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[58.211s] [ 88%] Building C object CMakeFiles/gpsd_client__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/gpsd_client/_gpsd_client_s.ep.rosidl_typesupport_introspection_c.c.o
+[58.212s] [ 88%] Building C object CMakeFiles/gpsd_client__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/gpsd_client/_gpsd_client_s.ep.rosidl_typesupport_c.c.o
+[59.173s] [ 91%] Linking C shared library gpsd_client_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[59.182s] [ 94%] Linking C shared library gpsd_client_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[59.184s] [ 97%] Linking C shared library gpsd_client_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[59.561s] [ 97%] Built target gpsd_client__rosidl_typesupport_fastrtps_c__pyext
+[59.570s] [ 97%] Built target gpsd_client__rosidl_typesupport_introspection_c__pyext
+[59.571s] [ 97%] Built target gpsd_client__rosidl_typesupport_c__pyext
+[77.999s] [100%] Linking CXX executable gpsd_node
+[78.961s] [100%] Built target gpsd_node
+[79.047s] Invoked command in '/voiture2A-ros/build/gpsd_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /voiture2A-ros/build/gpsd_client -- -j16 -l16
+[79.133s] Invoking command in '/voiture2A-ros/build/gpsd_client': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --install /voiture2A-ros/build/gpsd_client
+[79.221s] -- Install configuration: ""
+[79.224s] -- Installing: /voiture2A-ros/install/gpsd_client/share/ament_index/resource_index/rosidl_interfaces/gpsd_client
+[79.226s] -- Installing: /voiture2A-ros/install/gpsd_client/share/gpsd_client/msg/GpsFix.json
+[79.227s] -- Installing: /voiture2A-ros/install/gpsd_client/include/gpsd_client/gpsd_client
+[79.227s] -- Installing: /voiture2A-ros/install/gpsd_client/include/gpsd_client/gpsd_client/msg
+[79.229s] -- Installing: /voiture2A-ros/install/gpsd_client/include/gpsd_client/gpsd_client/msg/gps_fix.h
+[79.229s] -- Installing: /voiture2A-ros/install/gpsd_client/include/gpsd_client/gpsd_client/msg/rosidl_generator_c__visibility_control.h
+[79.230s] -- Installing: /voiture2A-ros/install/gpsd_client/include/gpsd_client/gpsd_client/msg/detail
+[79.230s] -- Installing: /voiture2A-ros/install/gpsd_client/include/gpsd_client/gpsd_client/msg/detail/gps_fix__functions.h
+[79.230s] -- Installing: /voiture2A-ros/install/gpsd_client/include/gpsd_client/gpsd_client/msg/detail/gps_fix__description.c
+[79.231s] -- Installing: /voiture2A-ros/install/gpsd_client/include/gpsd_client/gpsd_client/msg/detail/gps_fix__functions.c
+[79.231s] -- Installing: /voiture2A-ros/install/gpsd_client/include/gpsd_client/gpsd_client/msg/detail/gps_fix__struct.h
+[79.231s] -- Installing: /voiture2A-ros/install/gpsd_client/include/gpsd_client/gpsd_client/msg/detail/gps_fix__type_support.h
+[79.231s] -- Installing: /voiture2A-ros/install/gpsd_client/include/gpsd_client/gpsd_client/msg/detail/gps_fix__type_support.c
+[79.232s] -- Installing: /voiture2A-ros/install/gpsd_client/share/gpsd_client/environment/library_path.sh
+[79.232s] -- Installing: /voiture2A-ros/install/gpsd_client/share/gpsd_client/environment/library_path.dsv
+[79.232s] -- Installing: /voiture2A-ros/install/gpsd_client/lib/libgpsd_client__rosidl_generator_c.so
+[79.235s] -- Set runtime path of "/voiture2A-ros/install/gpsd_client/lib/libgpsd_client__rosidl_generator_c.so" to ""
+[79.236s] -- Up-to-date: /voiture2A-ros/install/gpsd_client/include/gpsd_client/gpsd_client
+[79.236s] -- Up-to-date: /voiture2A-ros/install/gpsd_client/include/gpsd_client/gpsd_client/msg
+[79.238s] -- Installing: /voiture2A-ros/install/gpsd_client/include/gpsd_client/gpsd_client/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[79.239s] -- Up-to-date: /voiture2A-ros/install/gpsd_client/include/gpsd_client/gpsd_client/msg/detail
+[79.239s] -- Installing: /voiture2A-ros/install/gpsd_client/include/gpsd_client/gpsd_client/msg/detail/gps_fix__rosidl_typesupport_fastrtps_c.h
+[79.241s] -- Installing: /voiture2A-ros/install/gpsd_client/lib/libgpsd_client__rosidl_typesupport_fastrtps_c.so
+[79.242s] -- Set runtime path of "/voiture2A-ros/install/gpsd_client/lib/libgpsd_client__rosidl_typesupport_fastrtps_c.so" to ""
+[79.243s] -- Up-to-date: /voiture2A-ros/install/gpsd_client/include/gpsd_client/gpsd_client
+[79.243s] -- Up-to-date: /voiture2A-ros/install/gpsd_client/include/gpsd_client/gpsd_client/msg
+[79.244s] -- Installing: /voiture2A-ros/install/gpsd_client/include/gpsd_client/gpsd_client/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[79.245s] -- Up-to-date: /voiture2A-ros/install/gpsd_client/include/gpsd_client/gpsd_client/msg/detail
+[79.245s] -- Installing: /voiture2A-ros/install/gpsd_client/include/gpsd_client/gpsd_client/msg/detail/gps_fix__rosidl_typesupport_introspection_c.h
+[79.245s] -- Installing: /voiture2A-ros/install/gpsd_client/include/gpsd_client/gpsd_client/msg/detail/gps_fix__type_support.c
+[79.246s] -- Installing: /voiture2A-ros/install/gpsd_client/lib/libgpsd_client__rosidl_typesupport_introspection_c.so
+[79.246s] -- Set runtime path of "/voiture2A-ros/install/gpsd_client/lib/libgpsd_client__rosidl_typesupport_introspection_c.so" to ""
+[79.246s] -- Installing: /voiture2A-ros/install/gpsd_client/lib/libgpsd_client__rosidl_typesupport_c.so
+[79.247s] -- Set runtime path of "/voiture2A-ros/install/gpsd_client/lib/libgpsd_client__rosidl_typesupport_c.so" to ""
+[79.247s] -- Up-to-date: /voiture2A-ros/install/gpsd_client/include/gpsd_client/gpsd_client
+[79.248s] -- Up-to-date: /voiture2A-ros/install/gpsd_client/include/gpsd_client/gpsd_client/msg
+[79.248s] -- Installing: /voiture2A-ros/install/gpsd_client/include/gpsd_client/gpsd_client/msg/gps_fix.hpp
+[79.249s] -- Up-to-date: /voiture2A-ros/install/gpsd_client/include/gpsd_client/gpsd_client/msg/detail
+[79.249s] -- Installing: /voiture2A-ros/install/gpsd_client/include/gpsd_client/gpsd_client/msg/detail/gps_fix__traits.hpp
+[79.250s] -- Installing: /voiture2A-ros/install/gpsd_client/include/gpsd_client/gpsd_client/msg/detail/gps_fix__builder.hpp
+[79.250s] -- Installing: /voiture2A-ros/install/gpsd_client/include/gpsd_client/gpsd_client/msg/detail/gps_fix__struct.hpp
+[79.250s] -- Installing: /voiture2A-ros/install/gpsd_client/include/gpsd_client/gpsd_client/msg/detail/gps_fix__type_support.hpp
+[79.251s] -- Installing: /voiture2A-ros/install/gpsd_client/include/gpsd_client/gpsd_client/msg/rosidl_generator_cpp__visibility_control.hpp
+[79.251s] -- Up-to-date: /voiture2A-ros/install/gpsd_client/include/gpsd_client/gpsd_client
+[79.251s] -- Up-to-date: /voiture2A-ros/install/gpsd_client/include/gpsd_client/gpsd_client/msg
+[79.251s] -- Installing: /voiture2A-ros/install/gpsd_client/include/gpsd_client/gpsd_client/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[79.252s] -- Up-to-date: /voiture2A-ros/install/gpsd_client/include/gpsd_client/gpsd_client/msg/detail
+[79.252s] -- Installing: /voiture2A-ros/install/gpsd_client/include/gpsd_client/gpsd_client/msg/detail/dds_fastrtps
+[79.252s] -- Installing: /voiture2A-ros/install/gpsd_client/include/gpsd_client/gpsd_client/msg/detail/gps_fix__rosidl_typesupport_fastrtps_cpp.hpp
+[79.253s] -- Installing: /voiture2A-ros/install/gpsd_client/lib/libgpsd_client__rosidl_typesupport_fastrtps_cpp.so
+[79.253s] -- Set runtime path of "/voiture2A-ros/install/gpsd_client/lib/libgpsd_client__rosidl_typesupport_fastrtps_cpp.so" to ""
+[79.253s] -- Up-to-date: /voiture2A-ros/install/gpsd_client/include/gpsd_client/gpsd_client
+[79.253s] -- Up-to-date: /voiture2A-ros/install/gpsd_client/include/gpsd_client/gpsd_client/msg
+[79.253s] -- Up-to-date: /voiture2A-ros/install/gpsd_client/include/gpsd_client/gpsd_client/msg/detail
+[79.254s] -- Installing: /voiture2A-ros/install/gpsd_client/include/gpsd_client/gpsd_client/msg/detail/gps_fix__type_support.cpp
+[79.254s] -- Installing: /voiture2A-ros/install/gpsd_client/include/gpsd_client/gpsd_client/msg/detail/gps_fix__rosidl_typesupport_introspection_cpp.hpp
+[79.254s] -- Installing: /voiture2A-ros/install/gpsd_client/lib/libgpsd_client__rosidl_typesupport_introspection_cpp.so
+[79.255s] -- Set runtime path of "/voiture2A-ros/install/gpsd_client/lib/libgpsd_client__rosidl_typesupport_introspection_cpp.so" to ""
+[79.255s] -- Installing: /voiture2A-ros/install/gpsd_client/lib/libgpsd_client__rosidl_typesupport_cpp.so
+[79.255s] -- Set runtime path of "/voiture2A-ros/install/gpsd_client/lib/libgpsd_client__rosidl_typesupport_cpp.so" to ""
+[79.255s] -- Installing: /voiture2A-ros/install/gpsd_client/share/gpsd_client/environment/pythonpath.sh
+[79.256s] -- Installing: /voiture2A-ros/install/gpsd_client/share/gpsd_client/environment/pythonpath.dsv
+[79.256s] -- Installing: /voiture2A-ros/install/gpsd_client/lib/python3.10/site-packages/gpsd_client-1.0.0-py3.10.egg-info
+[79.256s] -- Installing: /voiture2A-ros/install/gpsd_client/lib/python3.10/site-packages/gpsd_client-1.0.0-py3.10.egg-info/dependency_links.txt
+[79.256s] -- Installing: /voiture2A-ros/install/gpsd_client/lib/python3.10/site-packages/gpsd_client-1.0.0-py3.10.egg-info/PKG-INFO
+[79.257s] -- Installing: /voiture2A-ros/install/gpsd_client/lib/python3.10/site-packages/gpsd_client-1.0.0-py3.10.egg-info/top_level.txt
+[79.257s] -- Installing: /voiture2A-ros/install/gpsd_client/lib/python3.10/site-packages/gpsd_client-1.0.0-py3.10.egg-info/SOURCES.txt
+[79.257s] -- Installing: /voiture2A-ros/install/gpsd_client/lib/python3.10/site-packages/gpsd_client
+[79.257s] -- Installing: /voiture2A-ros/install/gpsd_client/lib/python3.10/site-packages/gpsd_client/_gpsd_client_s.ep.rosidl_typesupport_c.c
+[79.258s] -- Installing: /voiture2A-ros/install/gpsd_client/lib/python3.10/site-packages/gpsd_client/msg
+[79.258s] -- Installing: /voiture2A-ros/install/gpsd_client/lib/python3.10/site-packages/gpsd_client/msg/_gps_fix.py
+[79.258s] -- Installing: /voiture2A-ros/install/gpsd_client/lib/python3.10/site-packages/gpsd_client/msg/_gps_fix_s.c
+[79.258s] -- Installing: /voiture2A-ros/install/gpsd_client/lib/python3.10/site-packages/gpsd_client/msg/__init__.py
+[79.259s] -- Installing: /voiture2A-ros/install/gpsd_client/lib/python3.10/site-packages/gpsd_client/_gpsd_client_s.ep.rosidl_typesupport_fastrtps_c.c
+[79.259s] -- Installing: /voiture2A-ros/install/gpsd_client/lib/python3.10/site-packages/gpsd_client/_gpsd_client_s.ep.rosidl_typesupport_introspection_c.c
+[79.259s] -- Installing: /voiture2A-ros/install/gpsd_client/lib/python3.10/site-packages/gpsd_client/__init__.py
+[79.581s] Listing '/voiture2A-ros/install/gpsd_client/lib/python3.10/site-packages/gpsd_client'...
+[79.581s] Compiling '/voiture2A-ros/install/gpsd_client/lib/python3.10/site-packages/gpsd_client/__init__.py'...
+[79.581s] Listing '/voiture2A-ros/install/gpsd_client/lib/python3.10/site-packages/gpsd_client/msg'...
+[79.581s] Compiling '/voiture2A-ros/install/gpsd_client/lib/python3.10/site-packages/gpsd_client/msg/__init__.py'...
+[79.582s] Compiling '/voiture2A-ros/install/gpsd_client/lib/python3.10/site-packages/gpsd_client/msg/_gps_fix.py'...
+[79.603s] -- Installing: /voiture2A-ros/install/gpsd_client/lib/python3.10/site-packages/gpsd_client/gpsd_client_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[79.603s] -- Set runtime path of "/voiture2A-ros/install/gpsd_client/lib/python3.10/site-packages/gpsd_client/gpsd_client_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[79.604s] -- Installing: /voiture2A-ros/install/gpsd_client/lib/python3.10/site-packages/gpsd_client/gpsd_client_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[79.605s] -- Set runtime path of "/voiture2A-ros/install/gpsd_client/lib/python3.10/site-packages/gpsd_client/gpsd_client_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[79.606s] -- Installing: /voiture2A-ros/install/gpsd_client/lib/python3.10/site-packages/gpsd_client/gpsd_client_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[79.606s] -- Set runtime path of "/voiture2A-ros/install/gpsd_client/lib/python3.10/site-packages/gpsd_client/gpsd_client_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[79.607s] -- Installing: /voiture2A-ros/install/gpsd_client/lib/libgpsd_client__rosidl_generator_py.so
+[79.608s] -- Set runtime path of "/voiture2A-ros/install/gpsd_client/lib/libgpsd_client__rosidl_generator_py.so" to ""
+[79.608s] -- Installing: /voiture2A-ros/install/gpsd_client/share/gpsd_client/msg/GpsFix.idl
+[79.609s] -- Installing: /voiture2A-ros/install/gpsd_client/share/gpsd_client/msg/GpsFix.msg
+[79.609s] -- Installing: /voiture2A-ros/install/gpsd_client/lib/gpsd_client/gpsd_node
+[79.613s] -- Set runtime path of "/voiture2A-ros/install/gpsd_client/lib/gpsd_client/gpsd_node" to ""
+[79.614s] -- Installing: /voiture2A-ros/install/gpsd_client/share/ament_index/resource_index/package_run_dependencies/gpsd_client
+[79.614s] -- Installing: /voiture2A-ros/install/gpsd_client/share/ament_index/resource_index/parent_prefix_path/gpsd_client
+[79.614s] -- Installing: /voiture2A-ros/install/gpsd_client/share/gpsd_client/environment/ament_prefix_path.sh
+[79.615s] -- Installing: /voiture2A-ros/install/gpsd_client/share/gpsd_client/environment/ament_prefix_path.dsv
+[79.615s] -- Installing: /voiture2A-ros/install/gpsd_client/share/gpsd_client/environment/path.sh
+[79.616s] -- Installing: /voiture2A-ros/install/gpsd_client/share/gpsd_client/environment/path.dsv
+[79.616s] -- Installing: /voiture2A-ros/install/gpsd_client/share/gpsd_client/local_setup.bash
+[79.617s] -- Installing: /voiture2A-ros/install/gpsd_client/share/gpsd_client/local_setup.sh
+[79.617s] -- Installing: /voiture2A-ros/install/gpsd_client/share/gpsd_client/local_setup.zsh
+[79.618s] -- Installing: /voiture2A-ros/install/gpsd_client/share/gpsd_client/local_setup.dsv
+[79.618s] -- Installing: /voiture2A-ros/install/gpsd_client/share/gpsd_client/package.dsv
+[79.619s] -- Installing: /voiture2A-ros/install/gpsd_client/share/ament_index/resource_index/packages/gpsd_client
+[79.619s] -- Installing: /voiture2A-ros/install/gpsd_client/share/gpsd_client/cmake/export_gpsd_client__rosidl_generator_cExport.cmake
+[79.619s] -- Installing: /voiture2A-ros/install/gpsd_client/share/gpsd_client/cmake/export_gpsd_client__rosidl_generator_cExport-noconfig.cmake
+[79.620s] -- Installing: /voiture2A-ros/install/gpsd_client/share/gpsd_client/cmake/export_gpsd_client__rosidl_typesupport_fastrtps_cExport.cmake
+[79.620s] -- Installing: /voiture2A-ros/install/gpsd_client/share/gpsd_client/cmake/export_gpsd_client__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[79.621s] -- Installing: /voiture2A-ros/install/gpsd_client/share/gpsd_client/cmake/gpsd_client__rosidl_typesupport_introspection_cExport.cmake
+[79.621s] -- Installing: /voiture2A-ros/install/gpsd_client/share/gpsd_client/cmake/gpsd_client__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[79.622s] -- Installing: /voiture2A-ros/install/gpsd_client/share/gpsd_client/cmake/gpsd_client__rosidl_typesupport_cExport.cmake
+[79.622s] -- Installing: /voiture2A-ros/install/gpsd_client/share/gpsd_client/cmake/gpsd_client__rosidl_typesupport_cExport-noconfig.cmake
+[79.623s] -- Installing: /voiture2A-ros/install/gpsd_client/share/gpsd_client/cmake/export_gpsd_client__rosidl_generator_cppExport.cmake
+[79.623s] -- Installing: /voiture2A-ros/install/gpsd_client/share/gpsd_client/cmake/export_gpsd_client__rosidl_typesupport_fastrtps_cppExport.cmake
+[79.624s] -- Installing: /voiture2A-ros/install/gpsd_client/share/gpsd_client/cmake/export_gpsd_client__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[79.624s] -- Installing: /voiture2A-ros/install/gpsd_client/share/gpsd_client/cmake/gpsd_client__rosidl_typesupport_introspection_cppExport.cmake
+[79.624s] -- Installing: /voiture2A-ros/install/gpsd_client/share/gpsd_client/cmake/gpsd_client__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[79.625s] -- Installing: /voiture2A-ros/install/gpsd_client/share/gpsd_client/cmake/gpsd_client__rosidl_typesupport_cppExport.cmake
+[79.625s] -- Installing: /voiture2A-ros/install/gpsd_client/share/gpsd_client/cmake/gpsd_client__rosidl_typesupport_cppExport-noconfig.cmake
+[79.625s] -- Installing: /voiture2A-ros/install/gpsd_client/share/gpsd_client/cmake/export_gpsd_client__rosidl_generator_pyExport.cmake
+[79.625s] -- Installing: /voiture2A-ros/install/gpsd_client/share/gpsd_client/cmake/export_gpsd_client__rosidl_generator_pyExport-noconfig.cmake
+[79.626s] -- Installing: /voiture2A-ros/install/gpsd_client/share/gpsd_client/cmake/rosidl_cmake-extras.cmake
+[79.626s] -- Installing: /voiture2A-ros/install/gpsd_client/share/gpsd_client/cmake/ament_cmake_export_dependencies-extras.cmake
+[79.626s] -- Installing: /voiture2A-ros/install/gpsd_client/share/gpsd_client/cmake/ament_cmake_export_include_directories-extras.cmake
+[79.627s] -- Installing: /voiture2A-ros/install/gpsd_client/share/gpsd_client/cmake/ament_cmake_export_libraries-extras.cmake
+[79.627s] -- Installing: /voiture2A-ros/install/gpsd_client/share/gpsd_client/cmake/ament_cmake_export_targets-extras.cmake
+[79.627s] -- Installing: /voiture2A-ros/install/gpsd_client/share/gpsd_client/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[79.628s] -- Installing: /voiture2A-ros/install/gpsd_client/share/gpsd_client/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[79.628s] -- Installing: /voiture2A-ros/install/gpsd_client/share/gpsd_client/cmake/gpsd_clientConfig.cmake
+[79.628s] -- Installing: /voiture2A-ros/install/gpsd_client/share/gpsd_client/cmake/gpsd_clientConfig-version.cmake
+[79.629s] -- Installing: /voiture2A-ros/install/gpsd_client/share/gpsd_client/package.xml
+[79.642s] Invoked command in '/voiture2A-ros/build/gpsd_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --install /voiture2A-ros/build/gpsd_client

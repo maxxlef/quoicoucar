@@ -1,0 +1,425 @@
+[0.021s] Invoking command in '/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/build/icm20948_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver -DCMAKE_INSTALL_PREFIX=/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/install/icm20948_driver
+[0.272s] -- The C compiler identification is GNU 11.4.0
+[0.273s] -- The CXX compiler identification is GNU 11.4.0
+[0.273s] -- Detecting C compiler ABI info
+[0.273s] -- Detecting C compiler ABI info - done
+[0.273s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.273s] -- Detecting C compile features
+[0.273s] -- Detecting C compile features - done
+[0.273s] -- Detecting CXX compiler ABI info
+[0.321s] -- Detecting CXX compiler ABI info - done
+[0.327s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.327s] -- Detecting CXX compile features
+[0.328s] -- Detecting CXX compile features - done
+[0.332s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.498s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.570s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.599s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.602s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.607s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.615s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.625s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.656s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.657s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.735s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.763s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.802s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.808s] -- Looking for pthread.h
+[0.883s] -- Looking for pthread.h - found
+[0.883s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.956s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.957s] -- Found Threads: TRUE  
+[0.992s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.000s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.240s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.556s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.673s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.690s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.691s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.713s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.713s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.713s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.713s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.733s] -- Found PythonExtra: .so  
+[1.780s] -- Configuring done
+[1.818s] -- Generating done
+[1.831s] -- Build files have been written to: /home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/build/icm20948_driver
+[1.857s] Invoked command in '/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/build/icm20948_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver -DCMAKE_INSTALL_PREFIX=/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/install/icm20948_driver
+[1.859s] Invoking command in '/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/build/icm20948_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/build/icm20948_driver -- -j16 -l16
+[1.898s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.908s] [  5%] [32mBuilding C object Fusion/CMakeFiles/Fusion.dir/FusionAhrs.c.o[0m
+[1.908s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.910s] [  7%] [32mBuilding C object Fusion/CMakeFiles/Fusion.dir/FusionCompass.c.o[0m
+[1.910s] [  9%] [32mBuilding C object Fusion/CMakeFiles/Fusion.dir/FusionOffset.c.o[0m
+[1.918s] [  9%] Built target ament_cmake_python_copy_icm20948_driver
+[1.977s] [ 11%] [32m[1mLinking C static library libFusion.a[0m
+[2.018s] [ 11%] Built target Fusion
+[2.119s] running egg_info
+[2.120s] creating icm20948_driver.egg-info
+[2.120s] writing icm20948_driver.egg-info/PKG-INFO
+[2.120s] writing dependency_links to icm20948_driver.egg-info/dependency_links.txt
+[2.120s] writing top-level names to icm20948_driver.egg-info/top_level.txt
+[2.120s] writing manifest file 'icm20948_driver.egg-info/SOURCES.txt'
+[2.122s] reading manifest file 'icm20948_driver.egg-info/SOURCES.txt'
+[2.122s] writing manifest file 'icm20948_driver.egg-info/SOURCES.txt'
+[2.203s] [ 11%] Built target ament_cmake_python_build_icm20948_driver_egg
+[2.289s] [ 16%] [32mBuilding C object CMakeFiles/icm20948_driver__rosidl_generator_c.dir/rosidl_generator_c/icm20948_driver/msg/detail/rpy__functions.c.o[0m
+[2.289s] [ 16%] [32mBuilding C object CMakeFiles/icm20948_driver__rosidl_generator_c.dir/rosidl_generator_c/icm20948_driver/msg/detail/raw_data__functions.c.o[0m
+[2.289s] [ 16%] [32mBuilding C object CMakeFiles/icm20948_driver__rosidl_generator_c.dir/rosidl_generator_c/icm20948_driver/msg/detail/debug_fusion__functions.c.o[0m
+[2.348s] [ 18%] [32m[1mLinking C shared library libicm20948_driver__rosidl_generator_c.so[0m
+[2.349s] [ 18%] Built target icm20948_driver__cpp
+[2.359s] [ 20%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.360s] [ 22%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.362s] [ 24%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.393s] [ 24%] Built target icm20948_driver__rosidl_generator_c
+[2.403s] [ 27%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.403s] [ 27%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.403s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.743s] [ 31%] [32mBuilding CXX object CMakeFiles/icm20948_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/icm20948_driver/msg/rpy__type_support.cpp.o[0m
+[2.750s] [ 33%] [32mBuilding CXX object CMakeFiles/icm20948_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/icm20948_driver/msg/debug_fusion__type_support.cpp.o[0m
+[2.751s] [ 35%] [32mBuilding CXX object CMakeFiles/icm20948_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/icm20948_driver/msg/raw_data__type_support.cpp.o[0m
+[2.851s] [ 37%] [32mBuilding CXX object CMakeFiles/icm20948_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/icm20948_driver/msg/detail/rpy__type_support.cpp.o[0m
+[2.854s] [ 38%] [32mBuilding CXX object CMakeFiles/icm20948_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/icm20948_driver/msg/detail/dds_fastrtps/debug_fusion__type_support.cpp.o[0m
+[2.854s] [ 42%] [32mBuilding CXX object CMakeFiles/icm20948_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/icm20948_driver/msg/detail/dds_fastrtps/raw_data__type_support.cpp.o[0m
+[2.856s] [ 44%] [32mBuilding CXX object CMakeFiles/icm20948_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/icm20948_driver/msg/detail/debug_fusion__type_support.cpp.o[0m
+[2.857s] [ 46%] [32mBuilding CXX object CMakeFiles/icm20948_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/icm20948_driver/msg/detail/dds_fastrtps/rpy__type_support.cpp.o[0m
+[2.858s] [ 40%] [32mBuilding CXX object CMakeFiles/icm20948_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/icm20948_driver/msg/detail/raw_data__type_support.cpp.o[0m
+[2.860s] [ 48%] [32mBuilding C object CMakeFiles/icm20948_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/icm20948_driver/msg/detail/rpy__type_support.c.o[0m
+[2.874s] [ 51%] [32mBuilding C object CMakeFiles/icm20948_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/icm20948_driver/msg/detail/debug_fusion__type_support.c.o[0m
+[2.875s] [ 51%] [32mBuilding C object CMakeFiles/icm20948_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/icm20948_driver/msg/detail/raw_data__type_support.c.o[0m
+[2.905s] [ 53%] [32mBuilding CXX object CMakeFiles/icm20948_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/icm20948_driver/msg/rpy__type_support.cpp.o[0m
+[2.919s] [ 55%] [32mBuilding CXX object CMakeFiles/icm20948_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/icm20948_driver/msg/debug_fusion__type_support.cpp.o[0m
+[2.928s] [ 57%] [32mBuilding CXX object CMakeFiles/icm20948_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/icm20948_driver/msg/raw_data__type_support.cpp.o[0m
+[2.944s] [ 59%] [32mBuilding CXX object CMakeFiles/icm20948_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/icm20948_driver/msg/detail/rpy__type_support_c.cpp.o[0m
+[2.954s] [ 61%] [32mBuilding CXX object CMakeFiles/icm20948_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/icm20948_driver/msg/detail/raw_data__type_support_c.cpp.o[0m
+[2.972s] [ 62%] [32m[1mLinking C shared library libicm20948_driver__rosidl_typesupport_introspection_c.so[0m
+[2.974s] [ 64%] [32mBuilding CXX object CMakeFiles/icm20948_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/icm20948_driver/msg/detail/debug_fusion__type_support_c.cpp.o[0m
+[3.015s] [ 66%] [32m[1mLinking CXX shared library libicm20948_driver__rosidl_typesupport_c.so[0m
+[3.085s] [ 66%] Built target icm20948_driver__rosidl_typesupport_introspection_c
+[3.158s] [ 66%] Built target icm20948_driver__rosidl_typesupport_c
+[3.463s] [ 68%] [32m[1mLinking CXX shared library libicm20948_driver__rosidl_typesupport_cpp.so[0m
+[3.555s] [ 68%] Built target icm20948_driver__rosidl_typesupport_cpp
+[3.593s] [ 70%] [32mBuilding CXX object CMakeFiles/icm20948.dir/src/icm20948_node.cpp.o[0m
+[3.596s] [ 72%] [32mBuilding CXX object CMakeFiles/icm20948.dir/src/icm20948.cpp.o[0m
+[3.617s] [ 74%] [32m[1mLinking CXX shared library libicm20948_driver__rosidl_typesupport_fastrtps_c.so[0m
+[3.656s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/src/icm20948.cpp:9:14:[m[K [01;31m[Kfatal error: [m[Ki2c/smbus.h: No such file or directory
+[3.656s]     9 |     #include [01;31m[K<i2c/smbus.h>[m[K
+[3.656s]       |              [01;31m[K^~~~~~~~~~~~~[m[K
+[3.656s] compilation terminated.
+[3.656s] gmake[2]: *** [CMakeFiles/icm20948.dir/build.make:90: CMakeFiles/icm20948.dir/src/icm20948.cpp.o] Error 1
+[3.656s] gmake[2]: *** Waiting for unfinished jobs....
+[3.665s] [ 75%] [32m[1mLinking CXX shared library libicm20948_driver__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.697s] [ 77%] [32m[1mLinking CXX shared library libicm20948_driver__rosidl_typesupport_introspection_cpp.so[0m
+[3.745s] [ 77%] Built target icm20948_driver__rosidl_typesupport_fastrtps_c
+[3.762s] [ 77%] Built target icm20948_driver__rosidl_typesupport_fastrtps_cpp
+[3.777s] [ 77%] Built target icm20948_driver__rosidl_typesupport_introspection_cpp
+[3.794s] [ 77%] Built target icm20948_driver
+[3.813s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.171s] [ 79%] Built target icm20948_driver__py
+[4.190s] [ 85%] [32mBuilding C object CMakeFiles/icm20948_driver__rosidl_generator_py.dir/rosidl_generator_py/icm20948_driver/msg/_debug_fusion_s.c.o[0m
+[4.190s] [ 85%] [32mBuilding C object CMakeFiles/icm20948_driver__rosidl_generator_py.dir/rosidl_generator_py/icm20948_driver/msg/_raw_data_s.c.o[0m
+[4.190s] [ 85%] [32mBuilding C object CMakeFiles/icm20948_driver__rosidl_generator_py.dir/rosidl_generator_py/icm20948_driver/msg/_rpy_s.c.o[0m
+[4.271s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/icm20948_driver/libicm20948_driver__rosidl_generator_py.so[0m
+[4.309s] [ 87%] Built target icm20948_driver__rosidl_generator_py
+[4.328s] [ 92%] [32mBuilding C object CMakeFiles/icm20948_driver__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/icm20948_driver/_icm20948_driver_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.328s] [ 92%] [32mBuilding C object CMakeFiles/icm20948_driver__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/icm20948_driver/_icm20948_driver_s.ep.rosidl_typesupport_c.c.o[0m
+[4.328s] [ 92%] [32mBuilding C object CMakeFiles/icm20948_driver__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/icm20948_driver/_icm20948_driver_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.408s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/icm20948_driver/icm20948_driver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.408s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/icm20948_driver/icm20948_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.408s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/icm20948_driver/icm20948_driver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.440s] [ 98%] Built target icm20948_driver__rosidl_typesupport_fastrtps_c__pyext
+[4.440s] [ 98%] Built target icm20948_driver__rosidl_typesupport_introspection_c__pyext
+[4.440s] [ 98%] Built target icm20948_driver__rosidl_typesupport_c__pyext
+[5.280s] In file included from [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionAhrs.h:15[m[K,
+[5.280s]                  from [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/Fusion.h:18[m[K,
+[5.280s]                  from [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/include/icm20948_driver/icm20948_node.h:14[m[K,
+[5.280s]                  from [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/src/icm20948_node.cpp:2[m[K:
+[5.280s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:[m[K In function ‘[01m[Kfloat FusionFastInverseSqrt(float)[m[K’:
+[5.280s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:176:24:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.280s]   176 |     Union32 union32 = {[01;35m[K.[m[Kf = x};
+[5.280s]       |                        [01;35m[K^[m[K
+[5.280s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:[m[K In function ‘[01m[KFusionVector FusionVectorAdd(FusionVector, FusionVector)[m[K’:
+[5.280s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:202:34:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.280s]   202 |     const FusionVector result = {[01;35m[K.[m[Kaxis = {
+[5.280s]       |                                  [01;35m[K^[m[K
+[5.280s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:203:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.280s]   203 |             [01;35m[K.[m[Kx = vectorA.axis.x + vectorB.axis.x,
+[5.280s]       |             [01;35m[K^[m[K
+[5.281s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:204:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.281s]   204 |             [01;35m[K.[m[Ky = vectorA.axis.y + vectorB.axis.y,
+[5.281s]       |             [01;35m[K^[m[K
+[5.281s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:205:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.281s]   205 |             [01;35m[K.[m[Kz = vectorA.axis.z + vectorB.axis.z,
+[5.281s]       |             [01;35m[K^[m[K
+[5.281s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:[m[K In function ‘[01m[KFusionVector FusionVectorSubtract(FusionVector, FusionVector)[m[K’:
+[5.281s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:217:34:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.281s]   217 |     const FusionVector result = {[01;35m[K.[m[Kaxis = {
+[5.281s]       |                                  [01;35m[K^[m[K
+[5.281s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:218:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.281s]   218 |             [01;35m[K.[m[Kx = vectorA.axis.x - vectorB.axis.x,
+[5.281s]       |             [01;35m[K^[m[K
+[5.281s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:219:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.281s]   219 |             [01;35m[K.[m[Ky = vectorA.axis.y - vectorB.axis.y,
+[5.281s]       |             [01;35m[K^[m[K
+[5.281s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:220:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.281s]   220 |             [01;35m[K.[m[Kz = vectorA.axis.z - vectorB.axis.z,
+[5.281s]       |             [01;35m[K^[m[K
+[5.281s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:[m[K In function ‘[01m[KFusionVector FusionVectorMultiplyScalar(FusionVector, float)[m[K’:
+[5.281s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:241:34:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.281s]   241 |     const FusionVector result = {[01;35m[K.[m[Kaxis = {
+[5.281s]       |                                  [01;35m[K^[m[K
+[5.281s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:242:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.281s]   242 |             [01;35m[K.[m[Kx = vector.axis.x * scalar,
+[5.281s]       |             [01;35m[K^[m[K
+[5.281s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:243:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.281s]   243 |             [01;35m[K.[m[Ky = vector.axis.y * scalar,
+[5.281s]       |             [01;35m[K^[m[K
+[5.281s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:244:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.282s]   244 |             [01;35m[K.[m[Kz = vector.axis.z * scalar,
+[5.282s]       |             [01;35m[K^[m[K
+[5.282s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:[m[K In function ‘[01m[KFusionVector FusionVectorHadamardProduct(FusionVector, FusionVector)[m[K’:
+[5.282s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:256:34:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.282s]   256 |     const FusionVector result = {[01;35m[K.[m[Kaxis = {
+[5.282s]       |                                  [01;35m[K^[m[K
+[5.282s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:257:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.282s]   257 |             [01;35m[K.[m[Kx = vectorA.axis.x * vectorB.axis.x,
+[5.282s]       |             [01;35m[K^[m[K
+[5.282s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:258:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.282s]   258 |             [01;35m[K.[m[Ky = vectorA.axis.y * vectorB.axis.y,
+[5.282s]       |             [01;35m[K^[m[K
+[5.282s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:259:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.282s]   259 |             [01;35m[K.[m[Kz = vectorA.axis.z * vectorB.axis.z,
+[5.282s]       |             [01;35m[K^[m[K
+[5.282s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:[m[K In function ‘[01m[KFusionVector FusionVectorCrossProduct(FusionVector, FusionVector)[m[K’:
+[5.282s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:273:34:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.282s]   273 |     const FusionVector result = {[01;35m[K.[m[Kaxis = {
+[5.282s]       |                                  [01;35m[K^[m[K
+[5.282s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:274:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.282s]   274 |             [01;35m[K.[m[Kx = A.y * B.z - A.z * B.y,
+[5.282s]       |             [01;35m[K^[m[K
+[5.282s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:275:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.282s]   275 |             [01;35m[K.[m[Ky = A.z * B.x - A.x * B.z,
+[5.282s]       |             [01;35m[K^[m[K
+[5.282s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:276:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.282s]   276 |             [01;35m[K.[m[Kz = A.x * B.y - A.y * B.x,
+[5.282s]       |             [01;35m[K^[m[K
+[5.282s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:[m[K In function ‘[01m[KFusionQuaternion FusionQuaternionAdd(FusionQuaternion, FusionQuaternion)[m[K’:
+[5.282s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:335:38:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.282s]   335 |     const FusionQuaternion result = {[01;35m[K.[m[Kelement = {
+[5.282s]       |                                      [01;35m[K^[m[K
+[5.282s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:336:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.282s]   336 |             [01;35m[K.[m[Kw = quaternionA.element.w + quaternionB.element.w,
+[5.282s]       |             [01;35m[K^[m[K
+[5.282s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:337:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.282s]   337 |             [01;35m[K.[m[Kx = quaternionA.element.x + quaternionB.element.x,
+[5.282s]       |             [01;35m[K^[m[K
+[5.282s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:338:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.283s]   338 |             [01;35m[K.[m[Ky = quaternionA.element.y + quaternionB.element.y,
+[5.283s]       |             [01;35m[K^[m[K
+[5.283s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:339:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.283s]   339 |             [01;35m[K.[m[Kz = quaternionA.element.z + quaternionB.element.z,
+[5.283s]       |             [01;35m[K^[m[K
+[5.283s] In file included from [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionAhrs.h:15[m[K,
+[5.283s]                  from [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/Fusion.h:18[m[K,
+[5.283s]                  from [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/include/icm20948_driver/icm20948_node.h:14[m[K,
+[5.283s]                  from [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/src/icm20948_node.cpp:2[m[K:
+[5.283s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:[m[K In function ‘[01m[KFusionQuaternion FusionQuaternionMultiply(FusionQuaternion, FusionQuaternion)[m[K’:
+[5.283s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:353:38:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.283s]   353 |     const FusionQuaternion result = {[01;35m[K.[m[Kelement = {
+[5.283s]       |                                      [01;35m[K^[m[K
+[5.283s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:354:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.283s]   354 |             [01;35m[K.[m[Kw = A.w * B.w - A.x * B.x - A.y * B.y - A.z * B.z,
+[5.283s]       |             [01;35m[K^[m[K
+[5.283s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:355:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.283s]   355 |             [01;35m[K.[m[Kx = A.w * B.x + A.x * B.w + A.y * B.z - A.z * B.y,
+[5.283s]       |             [01;35m[K^[m[K
+[5.283s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:356:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.283s]   356 |             [01;35m[K.[m[Ky = A.w * B.y - A.x * B.z + A.y * B.w + A.z * B.x,
+[5.283s]       |             [01;35m[K^[m[K
+[5.283s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:357:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.283s]   357 |             [01;35m[K.[m[Kz = A.w * B.z + A.x * B.y - A.y * B.x + A.z * B.w,
+[5.283s]       |             [01;35m[K^[m[K
+[5.283s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:[m[K In function ‘[01m[KFusionQuaternion FusionQuaternionMultiplyVector(FusionQuaternion, FusionVector)[m[K’:
+[5.283s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:376:38:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.283s]   376 |     const FusionQuaternion result = {[01;35m[K.[m[Kelement = {
+[5.283s]       |                                      [01;35m[K^[m[K
+[5.283s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:377:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.283s]   377 |             [01;35m[K.[m[Kw = -Q.x * V.x - Q.y * V.y - Q.z * V.z,
+[5.283s]       |             [01;35m[K^[m[K
+[5.283s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:378:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.283s]   378 |             [01;35m[K.[m[Kx = Q.w * V.x + Q.y * V.z - Q.z * V.y,
+[5.283s]       |             [01;35m[K^[m[K
+[5.283s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:379:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.283s]   379 |             [01;35m[K.[m[Ky = Q.w * V.y - Q.x * V.z + Q.z * V.x,
+[5.283s]       |             [01;35m[K^[m[K
+[5.283s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:380:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.283s]   380 |             [01;35m[K.[m[Kz = Q.w * V.z + Q.x * V.y - Q.y * V.x,
+[5.283s]       |             [01;35m[K^[m[K
+[5.284s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:[m[K In function ‘[01m[KFusionQuaternion FusionQuaternionNormalise(FusionQuaternion)[m[K’:
+[5.284s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:399:38:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.284s]   399 |     const FusionQuaternion result = {[01;35m[K.[m[Kelement = {
+[5.284s]       |                                      [01;35m[K^[m[K
+[5.284s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:400:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.284s]   400 |             [01;35m[K.[m[Kw = Q.w * magnitudeReciprocal,
+[5.284s]       |             [01;35m[K^[m[K
+[5.284s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:401:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.284s]   401 |             [01;35m[K.[m[Kx = Q.x * magnitudeReciprocal,
+[5.284s]       |             [01;35m[K^[m[K
+[5.284s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:402:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.284s]   402 |             [01;35m[K.[m[Ky = Q.y * magnitudeReciprocal,
+[5.284s]       |             [01;35m[K^[m[K
+[5.284s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:403:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.284s]   403 |             [01;35m[K.[m[Kz = Q.z * magnitudeReciprocal,
+[5.284s]       |             [01;35m[K^[m[K
+[5.284s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:[m[K In function ‘[01m[KFusionVector FusionMatrixMultiplyVector(FusionMatrix, FusionVector)[m[K’:
+[5.284s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:420:34:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.284s]   420 |     const FusionVector result = {[01;35m[K.[m[Kaxis = {
+[5.284s]       |                                  [01;35m[K^[m[K
+[5.284s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:421:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.284s]   421 |             [01;35m[K.[m[Kx = R.xx * vector.axis.x + R.xy * vector.axis.y + R.xz * vector.axis.z,
+[5.284s]       |             [01;35m[K^[m[K
+[5.284s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:422:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.284s]   422 |             [01;35m[K.[m[Ky = R.yx * vector.axis.x + R.yy * vector.axis.y + R.yz * vector.axis.z,
+[5.284s]       |             [01;35m[K^[m[K
+[5.284s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:423:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.284s]   423 |             [01;35m[K.[m[Kz = R.zx * vector.axis.x + R.zy * vector.axis.y + R.zz * vector.axis.z,
+[5.284s]       |             [01;35m[K^[m[K
+[5.284s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:[m[K In function ‘[01m[KFusionMatrix FusionQuaternionToMatrix(FusionQuaternion)[m[K’:
+[5.284s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:446:34:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.284s]   446 |     const FusionMatrix matrix = {[01;35m[K.[m[Kelement = {
+[5.284s]       |                                  [01;35m[K^[m[K
+[5.284s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:447:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.284s]   447 |             [01;35m[K.[m[Kxx = 2.0f * (qwqw - 0.5f + Q.x * Q.x),
+[5.284s]       |             [01;35m[K^[m[K
+[5.284s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:448:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.284s]   448 |             [01;35m[K.[m[Kxy = 2.0f * (qxqy - qwqz),
+[5.284s]       |             [01;35m[K^[m[K
+[5.284s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:449:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.285s]   449 |             [01;35m[K.[m[Kxz = 2.0f * (qxqz + qwqy),
+[5.285s]       |             [01;35m[K^[m[K
+[5.285s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:450:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.285s]   450 |             [01;35m[K.[m[Kyx = 2.0f * (qxqy + qwqz),
+[5.285s]       |             [01;35m[K^[m[K
+[5.285s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:451:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.285s]   451 |             [01;35m[K.[m[Kyy = 2.0f * (qwqw - 0.5f + Q.y * Q.y),
+[5.285s]       |             [01;35m[K^[m[K
+[5.285s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:452:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.285s]   452 |             [01;35m[K.[m[Kyz = 2.0f * (qyqz - qwqx),
+[5.285s]       |             [01;35m[K^[m[K
+[5.285s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:453:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.285s]   453 |             [01;35m[K.[m[Kzx = 2.0f * (qxqz - qwqy),
+[5.285s]       |             [01;35m[K^[m[K
+[5.285s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:454:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.285s]   454 |             [01;35m[K.[m[Kzy = 2.0f * (qyqz + qwqx),
+[5.285s]       |             [01;35m[K^[m[K
+[5.285s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:455:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.286s]   455 |             [01;35m[K.[m[Kzz = 2.0f * (qwqw - 0.5f + Q.z * Q.z),
+[5.286s]       |             [01;35m[K^[m[K
+[5.286s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:[m[K In function ‘[01m[KFusionEuler FusionQuaternionToEuler(FusionQuaternion)[m[K’:
+[5.286s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:469:32:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.286s]   469 |     const FusionEuler euler = {[01;35m[K.[m[Kangle = {
+[5.286s]       |                                [01;35m[K^[m[K
+[5.286s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:470:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.286s]   470 |             [01;35m[K.[m[Kroll = FusionRadiansToDegrees(atan2f(Q.w * Q.x + Q.y * Q.z, halfMinusQySquared - Q.x * Q.x)),
+[5.286s]       |             [01;35m[K^[m[K
+[5.286s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:471:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.286s]   471 |             [01;35m[K.[m[Kpitch = FusionRadiansToDegrees(FusionAsin(2.0f * (Q.w * Q.y - Q.z * Q.x))),
+[5.286s]       |             [01;35m[K^[m[K
+[5.286s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/Fusion/FusionMath.h:472:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.286s]   472 |             [01;35m[K.[m[Kyaw = FusionRadiansToDegrees(atan2f(Q.w * Q.z + Q.x * Q.y, halfMinusQySquared - Q.z * Q.z)),
+[5.286s]       |             [01;35m[K^[m[K
+[5.289s] In file included from [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/src/icm20948_node.cpp:3[m[K:
+[5.289s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/include/icm20948_driver/fusion_converter.h:[m[K In function ‘[01m[KFusionVector FusionVectorFromStdVector(const std::vector<double, std::allocator<double> >&)[m[K’:
+[5.289s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/include/icm20948_driver/fusion_converter.h:18:34:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.290s]    18 |     const FusionVector result = {[01;35m[K.[m[Kaxis = {
+[5.290s]       |                                  [01;35m[K^[m[K
+[5.290s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/include/icm20948_driver/fusion_converter.h:19:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.290s]    19 |             [01;35m[K.[m[Kx = static_cast<float>(vector[0]),
+[5.290s]       |             [01;35m[K^[m[K
+[5.290s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/include/icm20948_driver/fusion_converter.h:20:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.290s]    20 |             [01;35m[K.[m[Ky = static_cast<float>(vector[1]),
+[5.290s]       |             [01;35m[K^[m[K
+[5.290s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/include/icm20948_driver/fusion_converter.h:21:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.290s]    21 |             [01;35m[K.[m[Kz = static_cast<float>(vector[2]),
+[5.290s]       |             [01;35m[K^[m[K
+[5.290s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/include/icm20948_driver/fusion_converter.h:[m[K In function ‘[01m[KFusionMatrix FusionMatrixFromStdVector(const std::vector<double, std::allocator<double> >&)[m[K’:
+[5.290s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/include/icm20948_driver/fusion_converter.h:32:34:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.290s]    32 |     const FusionMatrix result = {[01;35m[K.[m[Kelement = {
+[5.290s]       |                                  [01;35m[K^[m[K
+[5.290s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/include/icm20948_driver/fusion_converter.h:33:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.290s]    33 |             [01;35m[K.[m[Kxx = static_cast<float>(matrix[0]),
+[5.290s]       |             [01;35m[K^[m[K
+[5.290s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/include/icm20948_driver/fusion_converter.h:34:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.290s]    34 |             [01;35m[K.[m[Kxy = static_cast<float>(matrix[1]),
+[5.290s]       |             [01;35m[K^[m[K
+[5.290s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/include/icm20948_driver/fusion_converter.h:35:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.290s]    35 |             [01;35m[K.[m[Kxz = static_cast<float>(matrix[2]),
+[5.290s]       |             [01;35m[K^[m[K
+[5.290s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/include/icm20948_driver/fusion_converter.h:36:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.290s]    36 |             [01;35m[K.[m[Kyx = static_cast<float>(matrix[3]),
+[5.290s]       |             [01;35m[K^[m[K
+[5.290s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/include/icm20948_driver/fusion_converter.h:37:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.290s]    37 |             [01;35m[K.[m[Kyy = static_cast<float>(matrix[4]),
+[5.290s]       |             [01;35m[K^[m[K
+[5.290s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/include/icm20948_driver/fusion_converter.h:38:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.290s]    38 |             [01;35m[K.[m[Kyz = static_cast<float>(matrix[5]),
+[5.290s]       |             [01;35m[K^[m[K
+[5.290s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/include/icm20948_driver/fusion_converter.h:39:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.291s]    39 |             [01;35m[K.[m[Kzx = static_cast<float>(matrix[6]),
+[5.291s]       |             [01;35m[K^[m[K
+[5.291s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/include/icm20948_driver/fusion_converter.h:40:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.291s]    40 |             [01;35m[K.[m[Kzy = static_cast<float>(matrix[7]),
+[5.291s]       |             [01;35m[K^[m[K
+[5.291s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/include/icm20948_driver/fusion_converter.h:41:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.291s]    41 |             [01;35m[K.[m[Kzz = static_cast<float>(matrix[8]),
+[5.291s]       |             [01;35m[K^[m[K
+[5.291s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/include/icm20948_driver/fusion_converter.h:[m[K In function ‘[01m[KFusionQuaternion FusionQuaternionFromStdVector(const std::vector<double, std::allocator<double> >&)[m[K’:
+[5.291s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/include/icm20948_driver/fusion_converter.h:52:38:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.291s]    52 |     const FusionQuaternion result = {[01;35m[K.[m[Kelement = {
+[5.291s]       |                                      [01;35m[K^[m[K
+[5.291s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/include/icm20948_driver/fusion_converter.h:53:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.291s]    53 |             [01;35m[K.[m[Kw = static_cast<float>(quaternion[0]),
+[5.291s]       |             [01;35m[K^[m[K
+[5.291s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/include/icm20948_driver/fusion_converter.h:54:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.291s]    54 |             [01;35m[K.[m[Kx = static_cast<float>(quaternion[1]),
+[5.291s]       |             [01;35m[K^[m[K
+[5.291s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/include/icm20948_driver/fusion_converter.h:55:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.291s]    55 |             [01;35m[K.[m[Ky = static_cast<float>(quaternion[2]),
+[5.291s]       |             [01;35m[K^[m[K
+[5.291s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/include/icm20948_driver/fusion_converter.h:56:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.291s]    56 |             [01;35m[K.[m[Kz = static_cast<float>(quaternion[3]),
+[5.291s]       |             [01;35m[K^[m[K
+[5.291s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/include/icm20948_driver/fusion_converter.h:[m[K In function ‘[01m[KFusionEuler FusionEulerFromStdVector(const std::vector<double, std::allocator<double> >&)[m[K’:
+[5.291s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/include/icm20948_driver/fusion_converter.h:67:33:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.291s]    67 |     const FusionEuler result = {[01;35m[K.[m[Kangle = {
+[5.291s]       |                                 [01;35m[K^[m[K
+[5.291s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/include/icm20948_driver/fusion_converter.h:68:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.291s]    68 |             [01;35m[K.[m[Kroll = static_cast<float>(euler[0]),
+[5.291s]       |             [01;35m[K^[m[K
+[5.291s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/include/icm20948_driver/fusion_converter.h:69:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.291s]    69 |             [01;35m[K.[m[Kpitch = static_cast<float>(euler[1]),
+[5.291s]       |             [01;35m[K^[m[K
+[5.291s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/include/icm20948_driver/fusion_converter.h:70:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.291s]    70 |             [01;35m[K.[m[Kyaw = static_cast<float>(euler[2]),
+[5.291s]       |             [01;35m[K^[m[K
+[5.301s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/src/icm20948_node.cpp:[m[K In member function ‘[01m[Kvoid ICM20948Node::init_parameters()[m[K’:
+[5.302s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/src/icm20948_node.cpp:94:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.302s]    94 |             [01;35m[K.[m[Kconvention = convention_,
+[5.302s]       |             [01;35m[K^[m[K
+[5.302s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/src/icm20948_node.cpp:98:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.302s]    98 |             [01;35m[K.[m[Kgain = fusion_gain_,
+[5.302s]       |             [01;35m[K^[m[K
+[5.302s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/src/icm20948_node.cpp:102:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.302s]   102 |             [01;35m[K.[m[KgyroscopeRange = static_cast<float>(icm20948_.gyro_full_scale_[icm20948_.gyro_fs_sel_]), /* replace this with actual gyroscope range in degrees/s */
+[5.302s]       |             [01;35m[K^[m[K
+[5.302s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/src/icm20948_node.cpp:105:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.302s]   105 |             [01;35m[K.[m[KaccelerationRejection = acceleration_rejection_,
+[5.302s]       |             [01;35m[K^[m[K
+[5.302s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/src/icm20948_node.cpp:108:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.302s]   108 |             [01;35m[K.[m[KmagneticRejection = magnetic_rejection_,
+[5.302s]       |             [01;35m[K^[m[K
+[5.303s] [01m[K/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver/src/icm20948_node.cpp:111:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.303s]   111 |             [01;35m[K.[m[KrecoveryTriggerPeriod = recovery_trigger_period_ * sample_rate_, /* x seconds */
+[5.303s]       |             [01;35m[K^[m[K
+[7.301s] gmake[1]: *** [CMakeFiles/Makefile2:612: CMakeFiles/icm20948.dir/all] Error 2
+[7.301s] gmake: *** [Makefile:146: all] Error 2

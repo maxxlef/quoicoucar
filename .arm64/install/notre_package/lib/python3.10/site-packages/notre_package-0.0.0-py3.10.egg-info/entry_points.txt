@@ -1,0 +1,5 @@
+[console_scripts]
+control_node = notre_package.control:main
+localization_node = notre_package.localization:main
+mission_node = notre_package.waypoint:main
+

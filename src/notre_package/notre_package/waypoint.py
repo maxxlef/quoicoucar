@@ -20,7 +20,7 @@ class MissionNode(Node):
         self.create_subscription(Float32MultiArray, '/position', self.position_callback, 10)
 
         # Publication du waypoint actuel
-        self.wp_publisher = self.create_publisher(Float32MultiArray, '/current_waypoint', 10)
+        self.wp_publisher = self.create_publisher(Float32MultiArray, '/current_waypoints', 10)
 
         self.publish_waypoint()
 
