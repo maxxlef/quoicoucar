@@ -18,3 +18,7 @@ robi:
 sudo docker run --platform linux/arm64 -v /home/robi/Ensta_2A/ros/voiture2A-ros-main:/home -it arm64v8/ros
 
 recompile car j'ai modifié des noms de node
+on a lancé le sh ca a créé le arm64
+on a scp le fichier ./arm64/install
+on a voulu ros2 run voiture.. motors_node
+mais il fallait apt update + upgrade ( a faire).
