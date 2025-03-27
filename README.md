@@ -33,3 +33,45 @@ mais il fallait apt update + upgrade ( a faire).
 ros2 launch notre_package multi_launch.py
 ```
 
+# Schéma du Contrôleur de Suivi de Ligne
+
+## 1. Entrées du système :
+- Position actuelle du robot : $ (x, y, \text{yaw}) $
+- Waypoints définissant la trajectoire : $ A(A_x, A_y) $, $ B(B_x, B_y) $
+
+## 2. Calcul de la direction de la ligne :
+- Vecteur directeur de la ligne :
+  $$ \overrightarrow{AB} = (B_x - A_x, B_y - A_y) $$
+- Cap de la ligne (orientation désirée sans correction) :
+  $$ \varphi = -\arctan2(B_y - A_y, B_x - A_x) $$
+
+## 3. Calcul de l'erreur latérale :
+- Normalisation du vecteur :
+  $$ \mathbf{n} = \frac{\overrightarrow{AB}}{||\overrightarrow{AB}||} $$
+- Distance latérale du robot par rapport à la droite :
+  $$ e = n_x (y - A_y) - n_y (x - A_x) $$
+
+## 4. Correction de l'orientation :
+- Gain de correction de l'erreur latérale : $ K_p $
+- Gain de correction de l'orientation : $ K_{steering} $
+- Cap désiré avec correction :
+  $$ \theta_d = \varphi - K_p \tanh\left(\frac{e}{K_{steering}}\right) $$
+- Erreur d'orientation :
+  $$ \text{error\_heading} = \theta_d - \text{yaw} $$
+
+## 5. Contrôle de la vitesse :
+- Commande de direction avec saturation à $ \pm 60^\circ $ :
+  $$ \delta = \text{clip}(-\text{error\_heading}, -\frac{\pi}{3}, \frac{\pi}{3}) $$
+- Vitesse linéaire fixe :
+  $$ v = 0.2 \text{ m/s} $$
+
+## 6. Sorties :
+- **Commande de vitesse angulaire** : $ \delta $ (commande de rotation)
+- **Commande de vitesse linéaire** : $ v $ (avance du robot)
+
+---
+**Résumé du fonctionnement** :  
+1. Le robot calcule la ligne reliant les waypoints.  
+2. Il mesure son écart par rapport à cette ligne.  
+3. Il ajuste son orientation en fonction de l'erreur latérale.  
+4. Il applique une commande de rotation et avance avec une vitesse constante.
