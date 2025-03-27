@@ -62,7 +62,6 @@ class MissionNode(Node):
         
         # Calcul de la distance actuelle au waypoint (pour info)
         distance = np.linalg.norm(B - P)
-        self.get_logger().info(f'Distance au waypoint: {distance}')
         
         # Vérification de la condition : si le produit scalaire (B-A)ᵀ(B-P) est négatif,
         # cela signifie que le robot a dépassé le waypoint B
@@ -71,7 +70,6 @@ class MissionNode(Node):
             self.current_wp_idx += 1
             if self.current_wp_idx >= len(self.waypoints):
                 self.current_wp_idx = 0  # Boucle sur les waypoints
-        
         self.publish_waypoint()
 
 
@@ -79,9 +77,6 @@ class MissionNode(Node):
         msg = Float32MultiArray()
         msg.data = [self.waypoints[self.current_wp_idx][0], self.waypoints[self.current_wp_idx][1],self.waypoints[self.previous_wp_idx][0], self.waypoints[self.previous_wp_idx][1]]
         self.wp_publisher.publish(msg)
-        self.get_logger().info(f'Waypoint précédent: Index {self.previous_wp_idx}, Position {msg.data[2:]}')
-        self.get_logger().info(f'Waypoint actuel: Index {self.current_wp_idx}, Position {msg.data[:2]}')
-
 
 def main(args=None):
     rclpy.init(args=args)

@@ -56,7 +56,6 @@ class LocalizationNode(Node):
         self.lon_ref = -4.47391
         self.alt_ref = 20.0
         self.ref_x, self.ref_y = self.projection(self.lat_ref, self.lon_ref)
-        self.get_logger().info(f'Référence: x = {self.ref_x}, y = {self.ref_y}')
 
         # Initialisation du filtre de Kalman
         self.x = np.array([[0.0], [0.0], [0.0]])  # [x, y, cap]

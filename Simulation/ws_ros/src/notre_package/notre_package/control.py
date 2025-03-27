@@ -23,17 +23,18 @@ class WaypointFollower(Node):
         self.timer = self.create_timer(1, self.control_loop)
 
     def position_callback(self, msg):
-         if len(msg.data) >= 3:
+        if len(msg.data) >= 3:
             self.current_pose = {
                 'x': msg.data[0],
                 'y': msg.data[1],
                 'yaw': msg.data[2]
             }
-
+    
     def waypoints_callback(self, msg):
         point_A = [msg.data[0], msg.data[1]]
         point_B = [msg.data[2], msg.data[3]]
         self.waypoints = [point_A, point_B]
+        
 
     def control_loop(self):
         if self.current_pose is None or not self.waypoints:
@@ -84,6 +85,8 @@ class WaypointFollower(Node):
         cmd.linear.x = linear_x
         self.cmd_vel_pub.publish(cmd)
 
+        self.get_logger().info(f"Waypoint A: {A}, Waypoint B: {B}")
+        self.get_logger().info(f"Position actuelle x: {x}, y: {y}, yaw: {yaw}")
         self.get_logger().info(f"Erreur latérale: {e}")
         self.get_logger().info(f"Cap de la droite: {phi}")
         self.get_logger().info(f"Heading desired: {heading_desired}, Erreur: {error_heading}")
