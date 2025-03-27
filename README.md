@@ -22,3 +22,14 @@ on a lancé le sh ca a créé le arm64
 on a scp le fichier ./arm64/install
 on a voulu ros2 run voiture.. motors_node
 mais il fallait apt update + upgrade ( a faire).
+
+## Simulation avec CoppeliaSim
+- Ouvrir CoppeliaSim depuis le terminal
+- Ouvrir la scène Simulation/tricycle-cadROS.ttt
+- Aller dans le dossier Simulation/ws_ros et faire un colcon build puis source install/setup.bash
+- Lancer la simulation dans Coppelia
+- Lancer le multi_launch avec :
+```
+ros2 launch notre_package multi_launch.py
+```
+
