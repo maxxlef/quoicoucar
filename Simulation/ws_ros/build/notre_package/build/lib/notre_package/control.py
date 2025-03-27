@@ -61,18 +61,18 @@ class WaypointFollower(Node):
         # Correction du cap désiré en fonction de l'erreur latérale (selon la méthode initiale)
         Kp_line = 1 # Gain de correction sur l'erreur latérale
         Kp_steering = 5 # Gain de correction sur l'erreur d'orientation
-        heading_desired = phi - Kp_line * np.tanh(e/Kp_steering)  # Cap désiré
+        heading_desired = -phi - Kp_line * np.tanh(e/Kp_steering)  # Cap désiré
 
         # Fonction pour ramener un angle dans [-pi, pi]
         def sawtooth(angle):
             return (angle + np.pi) % (2 * np.pi) - np.pi
 
         # Calcul de l'erreur d'orientation (entre le cap désiré et le yaw actuel)
-        error_heading = sawtooth(yaw - heading_desired)
+        error_heading = sawtooth(heading_desired - yaw)
 
         # Pour le contrôle en position, on convertit cette erreur en consigne angulaire pour le servo
         # On utilise un correcteur proportionnel
-        servo_angle = error_heading
+        servo_angle = -error_heading
         # On limite la consigne aux limites physiques du servo (ici, par exemple, ±30°)
         servo_angle = np.clip(servo_angle, -np.radians(60), np.radians(60))
 

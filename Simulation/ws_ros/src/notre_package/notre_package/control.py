@@ -51,7 +51,7 @@ class WaypointFollower(Node):
 
         # Calcul du vecteur de la droite AB et de son angle (phi)
         AB = np.array([B[0] - A[0], B[1] - A[1]])
-        phi = np.arctan2(AB[1], AB[0])
+        phi = -np.arctan2(AB[1], AB[0])
         # Vecteur unitaire de la droite
         n = AB / np.linalg.norm(AB)
 
@@ -68,11 +68,11 @@ class WaypointFollower(Node):
             return (angle + np.pi) % (2 * np.pi) - np.pi
 
         # Calcul de l'erreur d'orientation (entre le cap désiré et le yaw actuel)
-        error_heading = sawtooth(yaw - heading_desired)
+        error_heading = sawtooth(heading_desired - yaw)
 
         # Pour le contrôle en position, on convertit cette erreur en consigne angulaire pour le servo
         # On utilise un correcteur proportionnel
-        servo_angle = error_heading
+        servo_angle = -error_heading
         # On limite la consigne aux limites physiques du servo (ici, par exemple, ±30°)
         servo_angle = np.clip(servo_angle, -np.radians(60), np.radians(60))
 
