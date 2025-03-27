@@ -1,5 +1,47 @@
 # voiture2A-ros
 
+## Structure des fichiers
+
+```
+├── README.md
+├── build/
+├── docker/
+│   ├── build_arm.sh
+│   ├── build_x86_64.sh
+│   └── run_docker_build.sh
+├── install/
+├── log/
+├── Simulation/
+│   ├── bike_control.py
+│   ├── gps.py
+│   ├── gyro.py
+│   ├── imu.py
+│   ├── script1.py
+│   ├── tricycle-cadROS.ttt
+│   └── ws_ros/
+│       ├── build/
+│       ├── install/
+│       ├── log/
+│       └── src/
+│           └── notre_package/
+│               ├── launch/
+│               │   └── multi_launch.py
+│               ├── notre_package/
+│               │   ├── control.py
+│               │   ├── __init__.py
+│               │   ├── localization.py
+│               │   └── waypoint.py
+│               ├── package.xml
+│               ├── resource/
+│               ├── setup.cfg
+│               └── setup.py
+└── src/
+    ├── gpsd_client/
+    ├── icm20948_driver/
+    ├── notre_package/
+    └── voiture2a_motors_driver/
+```
+
 ## Node architecture
 
 ### Camera node
@@ -75,3 +117,5 @@ ros2 launch notre_package multi_launch.py
 2. Il mesure son écart par rapport à cette ligne.  
 3. Il ajuste son orientation en fonction de l'erreur latérale.  
 4. Il applique une commande de rotation et avance avec une vitesse constante.
+
+
