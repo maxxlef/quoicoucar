@@ -66,7 +66,7 @@ ros2 launch notre_package multi_launch.py
   $$ v = 0.2 \text{ m/s} $$
 
 ## 6. Sorties :
-- **Commande de vitesse angulaire** : $ \delta $ (commande de rotation)
+- **Commande de position angulaire** : $ \delta $ (commande de rotation)
 - **Commande de vitesse linéaire** : $ v $ (avance du robot)
 
 ---
