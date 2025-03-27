@@ -79,6 +79,9 @@ class LocalizationNode(Node):
     
     def imu_callback(self, msg: Vector3): ##### Remplacer Vector3 par le type de message de l'IMU !//
         yaw = msg.z
+        def sawtooth(angle):
+            return (angle + np.pi) % (2 * np.pi) - np.pi
+        yaw = sawtooth(yaw)
         self.x[2, 0] = yaw
         # Mise à jour avec Kalman (on corrige uniquement le cap)
         #y_mesure = np.array([[self.x[0, 0]], [self.x[1, 0]], [yaw]])  # On garde la position précédente

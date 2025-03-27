@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/notre_package/notre_package.egg-info/PKG-INFO
+writing dependency_links to ../../build/notre_package/notre_package.egg-info/dependency_links.txt
+writing entry points to ../../build/notre_package/notre_package.egg-info/entry_points.txt
+writing requirements to ../../build/notre_package/notre_package.egg-info/requires.txt
+writing top-level names to ../../build/notre_package/notre_package.egg-info/top_level.txt
+reading manifest file '../../build/notre_package/notre_package.egg-info/SOURCES.txt'
+writing manifest file '../../build/notre_package/notre_package.egg-info/SOURCES.txt'
+running build
+running build_py
+copying notre_package/control.py -> /home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/Simulation/ws_ros/build/notre_package/build/lib/notre_package
+copying notre_package/localization.py -> /home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/Simulation/ws_ros/build/notre_package/build/lib/notre_package
+running install
+running install_lib
+copying /home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/Simulation/ws_ros/build/notre_package/build/lib/notre_package/control.py -> /home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/Simulation/ws_ros/install/notre_package/lib/python3.10/site-packages/notre_package
+copying /home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/Simulation/ws_ros/build/notre_package/build/lib/notre_package/localization.py -> /home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/Simulation/ws_ros/install/notre_package/lib/python3.10/site-packages/notre_package
+byte-compiling /home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/Simulation/ws_ros/install/notre_package/lib/python3.10/site-packages/notre_package/control.py to control.cpython-310.pyc
+byte-compiling /home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/Simulation/ws_ros/install/notre_package/lib/python3.10/site-packages/notre_package/localization.py to localization.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/Simulation/ws_ros/install/notre_package/lib/python3.10/site-packages/notre_package-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/notre_package/notre_package.egg-info to /home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/Simulation/ws_ros/install/notre_package/lib/python3.10/site-packages/notre_package-0.0.0-py3.10.egg-info
+running install_scripts
+Installing control_node script to /home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/Simulation/ws_ros/install/notre_package/lib/notre_package
+Installing localization_node script to /home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/Simulation/ws_ros/install/notre_package/lib/notre_package
+Installing mission_node script to /home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/Simulation/ws_ros/install/notre_package/lib/notre_package
+writing list of installed files to '/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/Simulation/ws_ros/build/notre_package/install.log'
