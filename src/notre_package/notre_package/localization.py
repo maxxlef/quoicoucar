@@ -1,14 +1,15 @@
+from icm20948_driver.msg import RPY
 import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import NavSatFix
-from icm20948_driver.msg import RPY
+from geometry_msgs.msg import Vector3
 from std_msgs.msg import Float32MultiArray
 from pyproj import Proj
 import numpy as np
 
 class LocalizationNode(Node):
 
-    def projection(self,lat,long, lat_m = 48.199015, long_m = -3.014798):# Format degrés decimaux
+    def projection(self,lat,long, lat_m = 48.41849, long_m = -4.47391):# Format degrés decimaux
         """
         Convertit les coordonnées GPS (latitude, longitude en format degrés décimaux) 
         en coordonnées cartésiennes locales par rapport à un point M défini par
@@ -18,7 +19,6 @@ class LocalizationNode(Node):
 
         Output: p (np.array)
         """
-
         rho = 6371009.7714
         # Conversion des latitudes et longitudes en radians
         lat_m_rad = np.radians(lat_m)
@@ -39,13 +39,22 @@ class LocalizationNode(Node):
     
     def __init__(self):
         super().__init__('localization_node')
+
+        self.get_logger().info('Initialisation du noeud de localisation')
         
         # Initialisation des abonnements
         self.create_subscription(NavSatFix, '/fix', self.gnss_callback, 10)
         self.create_subscription(RPY, '/rpy', self.imu_callback, 10)
-        
-        # Publication de la position fusionnée
+
+        # Publication périodique
+        self.timer = self.create_timer(0.01, self.publish_position) 
         self.publisher_ = self.create_publisher(Float32MultiArray, '/position', 10)
+        
+        # Coordonnées de référence pour le centre de la scène (degrès décimaux) ###### A adapter !//
+        self.lat_ref = 48.41849
+        self.lon_ref = -4.47391
+        self.alt_ref = 20.0
+        self.ref_x, self.ref_y = self.projection(self.lat_ref, self.lon_ref)
 
         # Initialisation du filtre de Kalman
         self.x = np.array([[0.0], [0.0], [0.0]])  # [x, y, cap]
@@ -57,7 +66,7 @@ class LocalizationNode(Node):
         self.Gamma_beta = np.eye(3) * 0.5  # Bruit de mesure
         
     def gnss_callback(self, msg: NavSatFix):
-        x_m, y_m = self.projection(msg.longitude, msg.latitude)
+        x_m, y_m = self.projection(msg.latitude, msg.longitude)
         x = x_m - self.ref_x
         y = y_m - self.ref_y
         self.x[0, 0] = x
@@ -68,7 +77,10 @@ class LocalizationNode(Node):
         self.publish_position()
     
     def imu_callback(self, msg: RPY):
-        yaw = msg.yaw  # Le cap est donné par l'IMU
+        yaw = msg.yaw
+        def sawtooth(angle):
+            return (angle + np.pi) % (2 * np.pi) - np.pi
+        yaw = sawtooth(yaw)
         self.x[2, 0] = yaw
         # Mise à jour avec Kalman (on corrige uniquement le cap)
         #y_mesure = np.array([[self.x[0, 0]], [self.x[1, 0]], [yaw]])  # On garde la position précédente
@@ -79,6 +91,7 @@ class LocalizationNode(Node):
         msg = Float32MultiArray()
         msg.data = [self.x[0, 0], self.x[1, 0], self.x[2, 0]]  # [x, y, cap]
         self.publisher_.publish(msg)
+        #self.get_logger().info(f'Position publiée: x = {self.x[0, 0]}, y = {self.x[1, 0]}, cap = {self.x[2, 0]}')
 
     def kalman_predict(self, xup,Gup,u,Γα,A):
         Γ1 = A @ Gup @ A.T + Γα

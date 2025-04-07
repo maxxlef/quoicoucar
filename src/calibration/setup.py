@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'notre_package'
+package_name = 'calibration'
 
 setup(
     name=package_name,
@@ -8,11 +8,8 @@ setup(
     packages=find_packages(exclude=['test']),
     data_files=[
         ('share/ament_index/resource_index/packages',
-         ['resource/' + package_name]),
+            ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
-        ('share/' + package_name + '/launch', ['launch/multi_launch.py']),
-
-
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -23,9 +20,6 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'localization_node = notre_package.localization:main',
-            'mission_node = notre_package.waypoint:main',
-            'control_node = notre_package.control:main',
         ],
     },
 )
