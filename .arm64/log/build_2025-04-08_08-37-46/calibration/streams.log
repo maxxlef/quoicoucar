@@ -1,0 +1,21 @@
+[5.165s] Invoking command in '/voiture2A-ros/src/calibration': PYTHONPATH=/voiture2A-ros/build/calibration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/voiture2A-ros/install/calibration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/calibration build --build-base /voiture2A-ros/build/calibration/build install --record /voiture2A-ros/build/calibration/install.log --single-version-externally-managed install_data
+[6.362s] running egg_info
+[6.365s] writing ../../build/calibration/calibration.egg-info/PKG-INFO
+[6.366s] writing dependency_links to ../../build/calibration/calibration.egg-info/dependency_links.txt
+[6.366s] writing entry points to ../../build/calibration/calibration.egg-info/entry_points.txt
+[6.367s] writing requirements to ../../build/calibration/calibration.egg-info/requires.txt
+[6.368s] writing top-level names to ../../build/calibration/calibration.egg-info/top_level.txt
+[6.377s] reading manifest file '../../build/calibration/calibration.egg-info/SOURCES.txt'
+[6.380s] writing manifest file '../../build/calibration/calibration.egg-info/SOURCES.txt'
+[6.380s] running build
+[6.381s] running build_py
+[6.381s] running install
+[6.383s] running install_lib
+[6.389s] running install_data
+[6.390s] running install_egg_info
+[6.397s] removing '/voiture2A-ros/install/calibration/lib/python3.10/site-packages/calibration-0.0.0-py3.10.egg-info' (and everything under it)
+[6.398s] Copying ../../build/calibration/calibration.egg-info to /voiture2A-ros/install/calibration/lib/python3.10/site-packages/calibration-0.0.0-py3.10.egg-info
+[6.403s] running install_scripts
+[6.557s] Installing calibration_node script to /voiture2A-ros/install/calibration/lib/calibration
+[6.558s] writing list of installed files to '/voiture2A-ros/build/calibration/install.log'
+[6.589s] Invoked command in '/voiture2A-ros/src/calibration' returned '0': PYTHONPATH=/voiture2A-ros/build/calibration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/voiture2A-ros/install/calibration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/calibration build --build-base /voiture2A-ros/build/calibration/build install --record /voiture2A-ros/build/calibration/install.log --single-version-externally-managed install_data

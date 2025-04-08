@@ -21,12 +21,6 @@ def generate_launch_description():
             name='motors_node',
             output='screen'
         ),
-        # Node(
-        #     package='notre_package',
-        #     executable='gnss_to_xy',
-        #     name='gnss_to_xy_node',
-        #     output='screen'
-        # ),
         Node(
             package='notre_package',
             executable='localization_node',

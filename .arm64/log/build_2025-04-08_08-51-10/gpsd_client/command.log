@@ -1,0 +1,4 @@
+Invoking command in '/voiture2A-ros/build/gpsd_client': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /voiture2A-ros/build/gpsd_client -- -j16 -l16
+Invoked command in '/voiture2A-ros/build/gpsd_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /voiture2A-ros/build/gpsd_client -- -j16 -l16
+Invoking command in '/voiture2A-ros/build/gpsd_client': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --install /voiture2A-ros/build/gpsd_client
+Invoked command in '/voiture2A-ros/build/gpsd_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --install /voiture2A-ros/build/gpsd_client

@@ -10,7 +10,7 @@ setup(
         ('share/ament_index/resource_index/packages',
          ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
-        ('share/' + package_name + '/launch', ['launch/multi_launch.py']),  # Ajoutez cette ligne pour le fichier multi_launch.py
+        ('share/' + package_name + '/launch', ['launch/multi_launch.py']),
 
 
     ],
@@ -23,7 +23,6 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            #'gnss_to_xy = notre_package.gnss_to_xy:main',
             'localization_node = notre_package.localization:main',
             'mission_node = notre_package.waypoint:main',
             'control_node = notre_package.control:main',

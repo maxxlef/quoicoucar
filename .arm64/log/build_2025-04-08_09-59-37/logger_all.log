@@ -1,0 +1,416 @@
+[1.619s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.624s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x55034be380>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x55034bdd80>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x55034bdd80>>, mixin_verb=('build',))
+[3.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.228s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[3.235s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[3.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.238s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/voiture2A-ros'
+[3.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.241s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.359s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.359s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.360s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.360s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.361s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.362s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.363s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.363s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.365s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.366s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.366s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.368s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.369s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.369s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.370s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.371s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.371s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.373s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.373s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.374s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.374s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.375s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.376s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.376s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.377s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.377s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/calibration) by extensions ['ignore', 'ignore_ament_install']
+[3.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/calibration) by extension 'ignore'
+[3.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/calibration) by extension 'ignore_ament_install'
+[3.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/calibration) by extensions ['colcon_pkg']
+[3.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/calibration) by extension 'colcon_pkg'
+[3.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/calibration) by extensions ['colcon_meta']
+[3.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/calibration) by extension 'colcon_meta'
+[3.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/calibration) by extensions ['ros']
+[3.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/calibration) by extension 'ros'
+[3.422s] DEBUG:colcon.colcon_core.package_identification:Package 'src/calibration' with type 'ros.ament_python' and name 'calibration'
+[3.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/gpsd_client) by extensions ['ignore', 'ignore_ament_install']
+[3.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/gpsd_client) by extension 'ignore'
+[3.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/gpsd_client) by extension 'ignore_ament_install'
+[3.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/gpsd_client) by extensions ['colcon_pkg']
+[3.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/gpsd_client) by extension 'colcon_pkg'
+[3.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/gpsd_client) by extensions ['colcon_meta']
+[3.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/gpsd_client) by extension 'colcon_meta'
+[3.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/gpsd_client) by extensions ['ros']
+[3.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/gpsd_client) by extension 'ros'
+[3.450s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gpsd_client' with type 'ros.ament_cmake' and name 'gpsd_client'
+[3.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/icm20948_driver) by extensions ['ignore', 'ignore_ament_install']
+[3.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/icm20948_driver) by extension 'ignore'
+[3.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/icm20948_driver) by extension 'ignore_ament_install'
+[3.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/icm20948_driver) by extensions ['colcon_pkg']
+[3.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/icm20948_driver) by extension 'colcon_pkg'
+[3.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/icm20948_driver) by extensions ['colcon_meta']
+[3.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/icm20948_driver) by extension 'colcon_meta'
+[3.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/icm20948_driver) by extensions ['ros']
+[3.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/icm20948_driver) by extension 'ros'
+[3.468s] DEBUG:colcon.colcon_core.package_identification:Package 'src/icm20948_driver' with type 'ros.ament_cmake' and name 'icm20948_driver'
+[3.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/notre_package) by extensions ['ignore', 'ignore_ament_install']
+[3.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/notre_package) by extension 'ignore'
+[3.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/notre_package) by extension 'ignore_ament_install'
+[3.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/notre_package) by extensions ['colcon_pkg']
+[3.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/notre_package) by extension 'colcon_pkg'
+[3.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/notre_package) by extensions ['colcon_meta']
+[3.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/notre_package) by extension 'colcon_meta'
+[3.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/notre_package) by extensions ['ros']
+[3.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/notre_package) by extension 'ros'
+[3.478s] DEBUG:colcon.colcon_core.package_identification:Package 'src/notre_package' with type 'ros.ament_python' and name 'notre_package'
+[3.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/voiture2a_motors_driver) by extensions ['ignore', 'ignore_ament_install']
+[3.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/voiture2a_motors_driver) by extension 'ignore'
+[3.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/voiture2a_motors_driver) by extension 'ignore_ament_install'
+[3.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/voiture2a_motors_driver) by extensions ['colcon_pkg']
+[3.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/voiture2a_motors_driver) by extension 'colcon_pkg'
+[3.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/voiture2a_motors_driver) by extensions ['colcon_meta']
+[3.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/voiture2a_motors_driver) by extension 'colcon_meta'
+[3.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/voiture2a_motors_driver) by extensions ['ros']
+[3.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/voiture2a_motors_driver) by extension 'ros'
+[3.489s] DEBUG:colcon.colcon_core.package_identification:Package 'src/voiture2a_motors_driver' with type 'ros.ament_cmake' and name 'voiture2a_motors_driver'
+[3.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.491s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.491s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.691s] Level 5:colcon.colcon_core.verb:set package 'calibration' build argument 'cmake_args' from command line to 'None'
+[3.692s] Level 5:colcon.colcon_core.verb:set package 'calibration' build argument 'cmake_target' from command line to 'None'
+[3.692s] Level 5:colcon.colcon_core.verb:set package 'calibration' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.693s] Level 5:colcon.colcon_core.verb:set package 'calibration' build argument 'cmake_clean_cache' from command line to 'False'
+[3.693s] Level 5:colcon.colcon_core.verb:set package 'calibration' build argument 'cmake_clean_first' from command line to 'False'
+[3.693s] Level 5:colcon.colcon_core.verb:set package 'calibration' build argument 'cmake_force_configure' from command line to 'False'
+[3.693s] Level 5:colcon.colcon_core.verb:set package 'calibration' build argument 'ament_cmake_args' from command line to 'None'
+[3.694s] Level 5:colcon.colcon_core.verb:set package 'calibration' build argument 'catkin_cmake_args' from command line to 'None'
+[3.694s] Level 5:colcon.colcon_core.verb:set package 'calibration' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.694s] DEBUG:colcon.colcon_core.verb:Building package 'calibration' with the following arguments: {'ament_cmake_args': None, 'build_base': '/voiture2A-ros/build/calibration', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/voiture2A-ros/install/calibration', 'merge_install': False, 'path': '/voiture2A-ros/src/calibration', 'symlink_install': False, 'test_result_base': None}
+[3.698s] Level 5:colcon.colcon_core.verb:set package 'gpsd_client' build argument 'cmake_args' from command line to 'None'
+[3.699s] Level 5:colcon.colcon_core.verb:set package 'gpsd_client' build argument 'cmake_target' from command line to 'None'
+[3.699s] Level 5:colcon.colcon_core.verb:set package 'gpsd_client' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.699s] Level 5:colcon.colcon_core.verb:set package 'gpsd_client' build argument 'cmake_clean_cache' from command line to 'False'
+[3.700s] Level 5:colcon.colcon_core.verb:set package 'gpsd_client' build argument 'cmake_clean_first' from command line to 'False'
+[3.700s] Level 5:colcon.colcon_core.verb:set package 'gpsd_client' build argument 'cmake_force_configure' from command line to 'False'
+[3.700s] Level 5:colcon.colcon_core.verb:set package 'gpsd_client' build argument 'ament_cmake_args' from command line to 'None'
+[3.700s] Level 5:colcon.colcon_core.verb:set package 'gpsd_client' build argument 'catkin_cmake_args' from command line to 'None'
+[3.701s] Level 5:colcon.colcon_core.verb:set package 'gpsd_client' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.701s] DEBUG:colcon.colcon_core.verb:Building package 'gpsd_client' with the following arguments: {'ament_cmake_args': None, 'build_base': '/voiture2A-ros/build/gpsd_client', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/voiture2A-ros/install/gpsd_client', 'merge_install': False, 'path': '/voiture2A-ros/src/gpsd_client', 'symlink_install': False, 'test_result_base': None}
+[3.705s] Level 5:colcon.colcon_core.verb:set package 'icm20948_driver' build argument 'cmake_args' from command line to 'None'
+[3.705s] Level 5:colcon.colcon_core.verb:set package 'icm20948_driver' build argument 'cmake_target' from command line to 'None'
+[3.705s] Level 5:colcon.colcon_core.verb:set package 'icm20948_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.706s] Level 5:colcon.colcon_core.verb:set package 'icm20948_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[3.706s] Level 5:colcon.colcon_core.verb:set package 'icm20948_driver' build argument 'cmake_clean_first' from command line to 'False'
+[3.707s] Level 5:colcon.colcon_core.verb:set package 'icm20948_driver' build argument 'cmake_force_configure' from command line to 'False'
+[3.707s] Level 5:colcon.colcon_core.verb:set package 'icm20948_driver' build argument 'ament_cmake_args' from command line to 'None'
+[3.708s] Level 5:colcon.colcon_core.verb:set package 'icm20948_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[3.709s] Level 5:colcon.colcon_core.verb:set package 'icm20948_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.709s] DEBUG:colcon.colcon_core.verb:Building package 'icm20948_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/voiture2A-ros/build/icm20948_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/voiture2A-ros/install/icm20948_driver', 'merge_install': False, 'path': '/voiture2A-ros/src/icm20948_driver', 'symlink_install': False, 'test_result_base': None}
+[3.713s] Level 5:colcon.colcon_core.verb:set package 'notre_package' build argument 'cmake_args' from command line to 'None'
+[3.714s] Level 5:colcon.colcon_core.verb:set package 'notre_package' build argument 'cmake_target' from command line to 'None'
+[3.714s] Level 5:colcon.colcon_core.verb:set package 'notre_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.714s] Level 5:colcon.colcon_core.verb:set package 'notre_package' build argument 'cmake_clean_cache' from command line to 'False'
+[3.715s] Level 5:colcon.colcon_core.verb:set package 'notre_package' build argument 'cmake_clean_first' from command line to 'False'
+[3.715s] Level 5:colcon.colcon_core.verb:set package 'notre_package' build argument 'cmake_force_configure' from command line to 'False'
+[3.715s] Level 5:colcon.colcon_core.verb:set package 'notre_package' build argument 'ament_cmake_args' from command line to 'None'
+[3.715s] Level 5:colcon.colcon_core.verb:set package 'notre_package' build argument 'catkin_cmake_args' from command line to 'None'
+[3.716s] Level 5:colcon.colcon_core.verb:set package 'notre_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.716s] DEBUG:colcon.colcon_core.verb:Building package 'notre_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/voiture2A-ros/build/notre_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/voiture2A-ros/install/notre_package', 'merge_install': False, 'path': '/voiture2A-ros/src/notre_package', 'symlink_install': False, 'test_result_base': None}
+[3.720s] Level 5:colcon.colcon_core.verb:set package 'voiture2a_motors_driver' build argument 'cmake_args' from command line to 'None'
+[3.720s] Level 5:colcon.colcon_core.verb:set package 'voiture2a_motors_driver' build argument 'cmake_target' from command line to 'None'
+[3.721s] Level 5:colcon.colcon_core.verb:set package 'voiture2a_motors_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.721s] Level 5:colcon.colcon_core.verb:set package 'voiture2a_motors_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[3.721s] Level 5:colcon.colcon_core.verb:set package 'voiture2a_motors_driver' build argument 'cmake_clean_first' from command line to 'False'
+[3.721s] Level 5:colcon.colcon_core.verb:set package 'voiture2a_motors_driver' build argument 'cmake_force_configure' from command line to 'False'
+[3.722s] Level 5:colcon.colcon_core.verb:set package 'voiture2a_motors_driver' build argument 'ament_cmake_args' from command line to 'None'
+[3.722s] Level 5:colcon.colcon_core.verb:set package 'voiture2a_motors_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[3.722s] Level 5:colcon.colcon_core.verb:set package 'voiture2a_motors_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.723s] DEBUG:colcon.colcon_core.verb:Building package 'voiture2a_motors_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/voiture2A-ros/build/voiture2a_motors_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/voiture2A-ros/install/voiture2a_motors_driver', 'merge_install': False, 'path': '/voiture2A-ros/src/voiture2a_motors_driver', 'symlink_install': False, 'test_result_base': None}
+[3.724s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.746s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.751s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/voiture2A-ros/src/calibration' with build type 'ament_python'
+[3.752s] Level 1:colcon.colcon_core.shell:create_environment_hook('calibration', 'ament_prefix_path')
+[3.773s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.775s] INFO:colcon.colcon_core.shell:Creating environment hook '/voiture2A-ros/install/calibration/share/calibration/hook/ament_prefix_path.ps1'
+[3.783s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/voiture2A-ros/install/calibration/share/calibration/hook/ament_prefix_path.dsv'
+[3.788s] INFO:colcon.colcon_core.shell:Creating environment hook '/voiture2A-ros/install/calibration/share/calibration/hook/ament_prefix_path.sh'
+[3.797s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.798s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.838s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/voiture2A-ros/src/gpsd_client' with build type 'ament_cmake'
+[3.839s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/voiture2A-ros/src/gpsd_client'
+[3.841s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.842s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.871s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/voiture2A-ros/src/icm20948_driver' with build type 'ament_cmake'
+[3.874s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/voiture2A-ros/src/icm20948_driver'
+[3.877s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.878s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.904s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/voiture2A-ros/src/notre_package' with build type 'ament_python'
+[3.906s] Level 1:colcon.colcon_core.shell:create_environment_hook('notre_package', 'ament_prefix_path')
+[3.908s] INFO:colcon.colcon_core.shell:Creating environment hook '/voiture2A-ros/install/notre_package/share/notre_package/hook/ament_prefix_path.ps1'
+[3.916s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/voiture2A-ros/install/notre_package/share/notre_package/hook/ament_prefix_path.dsv'
+[3.919s] INFO:colcon.colcon_core.shell:Creating environment hook '/voiture2A-ros/install/notre_package/share/notre_package/hook/ament_prefix_path.sh'
+[3.923s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.924s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.949s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/voiture2A-ros/src/voiture2a_motors_driver' with build type 'ament_cmake'
+[3.950s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/voiture2A-ros/src/voiture2a_motors_driver'
+[3.952s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.953s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.436s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/voiture2A-ros/src/calibration'
+[5.437s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.437s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.463s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/voiture2A-ros/build/gpsd_client': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /voiture2A-ros/build/gpsd_client -- -j16 -l16
+[5.474s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/voiture2A-ros/build/icm20948_driver': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /voiture2A-ros/build/icm20948_driver -- -j16 -l16
+[6.858s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/voiture2A-ros/src/notre_package'
+[6.861s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.861s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.894s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/voiture2A-ros/build/voiture2a_motors_driver': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /voiture2A-ros/build/voiture2a_motors_driver -- -j16 -l16
+[8.394s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/voiture2A-ros/build/gpsd_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /voiture2A-ros/build/gpsd_client -- -j16 -l16
+[8.489s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/voiture2A-ros/build/gpsd_client': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --install /voiture2A-ros/build/gpsd_client
+[8.500s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/voiture2A-ros/build/icm20948_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /voiture2A-ros/build/icm20948_driver -- -j16 -l16
+[8.503s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/voiture2A-ros/build/icm20948_driver': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --install /voiture2A-ros/build/icm20948_driver
+[8.879s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/voiture2A-ros/src/calibration': PYTHONPATH=/voiture2A-ros/build/calibration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/voiture2A-ros/install/calibration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/calibration build --build-base /voiture2A-ros/build/calibration/build install --record /voiture2A-ros/build/calibration/install.log --single-version-externally-managed install_data
+[8.891s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/voiture2A-ros/src/notre_package': PYTHONPATH=/voiture2A-ros/build/notre_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/voiture2A-ros/install/notre_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/notre_package build --build-base /voiture2A-ros/build/notre_package/build install --record /voiture2A-ros/build/notre_package/install.log --single-version-externally-managed install_data
+[8.995s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gpsd_client)
+[9.005s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/voiture2A-ros/build/gpsd_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --install /voiture2A-ros/build/gpsd_client
+[9.013s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/gpsd_client' for CMake module files
+[9.016s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/gpsd_client' for CMake config files
+[9.018s] Level 1:colcon.colcon_core.shell:create_environment_hook('gpsd_client', 'cmake_prefix_path')
+[9.019s] INFO:colcon.colcon_core.shell:Creating environment hook '/voiture2A-ros/install/gpsd_client/share/gpsd_client/hook/cmake_prefix_path.ps1'
+[9.022s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/voiture2A-ros/install/gpsd_client/share/gpsd_client/hook/cmake_prefix_path.dsv'
+[9.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/voiture2A-ros/install/gpsd_client/share/gpsd_client/hook/cmake_prefix_path.sh'
+[9.029s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/gpsd_client/lib'
+[9.030s] Level 1:colcon.colcon_core.shell:create_environment_hook('gpsd_client', 'ld_library_path_lib')
+[9.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/voiture2A-ros/install/gpsd_client/share/gpsd_client/hook/ld_library_path_lib.ps1'
+[9.035s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/voiture2A-ros/install/gpsd_client/share/gpsd_client/hook/ld_library_path_lib.dsv'
+[9.037s] INFO:colcon.colcon_core.shell:Creating environment hook '/voiture2A-ros/install/gpsd_client/share/gpsd_client/hook/ld_library_path_lib.sh'
+[9.039s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/gpsd_client/bin'
+[9.040s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/gpsd_client/lib/pkgconfig/gpsd_client.pc'
+[9.041s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/gpsd_client/lib/python3.10/site-packages'
+[9.041s] Level 1:colcon.colcon_core.shell:create_environment_hook('gpsd_client', 'pythonpath')
+[9.042s] INFO:colcon.colcon_core.shell:Creating environment hook '/voiture2A-ros/install/gpsd_client/share/gpsd_client/hook/pythonpath.ps1'
+[9.044s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/voiture2A-ros/install/gpsd_client/share/gpsd_client/hook/pythonpath.dsv'
+[9.046s] INFO:colcon.colcon_core.shell:Creating environment hook '/voiture2A-ros/install/gpsd_client/share/gpsd_client/hook/pythonpath.sh'
+[9.049s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/gpsd_client/bin'
+[9.051s] INFO:colcon.colcon_core.shell:Creating package script '/voiture2A-ros/install/gpsd_client/share/gpsd_client/package.ps1'
+[9.057s] INFO:colcon.colcon_core.shell:Creating package descriptor '/voiture2A-ros/install/gpsd_client/share/gpsd_client/package.dsv'
+[9.061s] INFO:colcon.colcon_core.shell:Creating package script '/voiture2A-ros/install/gpsd_client/share/gpsd_client/package.sh'
+[9.068s] INFO:colcon.colcon_core.shell:Creating package script '/voiture2A-ros/install/gpsd_client/share/gpsd_client/package.bash'
+[9.072s] INFO:colcon.colcon_core.shell:Creating package script '/voiture2A-ros/install/gpsd_client/share/gpsd_client/package.zsh'
+[9.076s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/voiture2A-ros/install/gpsd_client/share/colcon-core/packages/gpsd_client)
+[9.080s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gpsd_client)
+[9.081s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/gpsd_client' for CMake module files
+[9.084s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/gpsd_client' for CMake config files
+[9.086s] Level 1:colcon.colcon_core.shell:create_environment_hook('gpsd_client', 'cmake_prefix_path')
+[9.087s] INFO:colcon.colcon_core.shell:Creating environment hook '/voiture2A-ros/install/gpsd_client/share/gpsd_client/hook/cmake_prefix_path.ps1'
+[9.090s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/voiture2A-ros/install/gpsd_client/share/gpsd_client/hook/cmake_prefix_path.dsv'
+[9.092s] INFO:colcon.colcon_core.shell:Creating environment hook '/voiture2A-ros/install/gpsd_client/share/gpsd_client/hook/cmake_prefix_path.sh'
+[9.095s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/gpsd_client/lib'
+[9.096s] Level 1:colcon.colcon_core.shell:create_environment_hook('gpsd_client', 'ld_library_path_lib')
+[9.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/voiture2A-ros/install/gpsd_client/share/gpsd_client/hook/ld_library_path_lib.ps1'
+[9.099s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/voiture2A-ros/install/gpsd_client/share/gpsd_client/hook/ld_library_path_lib.dsv'
+[9.101s] INFO:colcon.colcon_core.shell:Creating environment hook '/voiture2A-ros/install/gpsd_client/share/gpsd_client/hook/ld_library_path_lib.sh'
+[9.104s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/gpsd_client/bin'
+[9.104s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/gpsd_client/lib/pkgconfig/gpsd_client.pc'
+[9.105s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/gpsd_client/lib/python3.10/site-packages'
+[9.105s] Level 1:colcon.colcon_core.shell:create_environment_hook('gpsd_client', 'pythonpath')
+[9.107s] INFO:colcon.colcon_core.shell:Creating environment hook '/voiture2A-ros/install/gpsd_client/share/gpsd_client/hook/pythonpath.ps1'
+[9.109s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/voiture2A-ros/install/gpsd_client/share/gpsd_client/hook/pythonpath.dsv'
+[9.111s] INFO:colcon.colcon_core.shell:Creating environment hook '/voiture2A-ros/install/gpsd_client/share/gpsd_client/hook/pythonpath.sh'
+[9.114s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/gpsd_client/bin'
+[9.117s] INFO:colcon.colcon_core.shell:Creating package script '/voiture2A-ros/install/gpsd_client/share/gpsd_client/package.ps1'
+[9.122s] INFO:colcon.colcon_core.shell:Creating package descriptor '/voiture2A-ros/install/gpsd_client/share/gpsd_client/package.dsv'
+[9.126s] INFO:colcon.colcon_core.shell:Creating package script '/voiture2A-ros/install/gpsd_client/share/gpsd_client/package.sh'
+[9.129s] INFO:colcon.colcon_core.shell:Creating package script '/voiture2A-ros/install/gpsd_client/share/gpsd_client/package.bash'
+[9.131s] INFO:colcon.colcon_core.shell:Creating package script '/voiture2A-ros/install/gpsd_client/share/gpsd_client/package.zsh'
+[9.134s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/voiture2A-ros/install/gpsd_client/share/colcon-core/packages/gpsd_client)
+[9.142s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(icm20948_driver)
+[9.143s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/icm20948_driver' for CMake module files
+[9.157s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/icm20948_driver' for CMake config files
+[9.172s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/voiture2A-ros/build/icm20948_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --install /voiture2A-ros/build/icm20948_driver
+[9.173s] Level 1:colcon.colcon_core.shell:create_environment_hook('icm20948_driver', 'cmake_prefix_path')
+[9.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/voiture2A-ros/install/icm20948_driver/share/icm20948_driver/hook/cmake_prefix_path.ps1'
+[9.177s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/voiture2A-ros/install/icm20948_driver/share/icm20948_driver/hook/cmake_prefix_path.dsv'
+[9.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/voiture2A-ros/install/icm20948_driver/share/icm20948_driver/hook/cmake_prefix_path.sh'
+[9.184s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/icm20948_driver/lib'
+[9.185s] Level 1:colcon.colcon_core.shell:create_environment_hook('icm20948_driver', 'ld_library_path_lib')
+[9.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/voiture2A-ros/install/icm20948_driver/share/icm20948_driver/hook/ld_library_path_lib.ps1'
+[9.189s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/voiture2A-ros/install/icm20948_driver/share/icm20948_driver/hook/ld_library_path_lib.dsv'
+[9.191s] INFO:colcon.colcon_core.shell:Creating environment hook '/voiture2A-ros/install/icm20948_driver/share/icm20948_driver/hook/ld_library_path_lib.sh'
+[9.194s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/icm20948_driver/bin'
+[9.194s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/icm20948_driver/lib/pkgconfig/icm20948_driver.pc'
+[9.196s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/icm20948_driver/lib/python3.10/site-packages'
+[9.196s] Level 1:colcon.colcon_core.shell:create_environment_hook('icm20948_driver', 'pythonpath')
+[9.197s] INFO:colcon.colcon_core.shell:Creating environment hook '/voiture2A-ros/install/icm20948_driver/share/icm20948_driver/hook/pythonpath.ps1'
+[9.200s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/voiture2A-ros/install/icm20948_driver/share/icm20948_driver/hook/pythonpath.dsv'
+[9.202s] INFO:colcon.colcon_core.shell:Creating environment hook '/voiture2A-ros/install/icm20948_driver/share/icm20948_driver/hook/pythonpath.sh'
+[9.205s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/icm20948_driver/bin'
+[9.207s] INFO:colcon.colcon_core.shell:Creating package script '/voiture2A-ros/install/icm20948_driver/share/icm20948_driver/package.ps1'
+[9.211s] INFO:colcon.colcon_core.shell:Creating package descriptor '/voiture2A-ros/install/icm20948_driver/share/icm20948_driver/package.dsv'
+[9.214s] INFO:colcon.colcon_core.shell:Creating package script '/voiture2A-ros/install/icm20948_driver/share/icm20948_driver/package.sh'
+[9.217s] INFO:colcon.colcon_core.shell:Creating package script '/voiture2A-ros/install/icm20948_driver/share/icm20948_driver/package.bash'
+[9.219s] INFO:colcon.colcon_core.shell:Creating package script '/voiture2A-ros/install/icm20948_driver/share/icm20948_driver/package.zsh'
+[9.221s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/voiture2A-ros/install/icm20948_driver/share/colcon-core/packages/icm20948_driver)
+[9.223s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(icm20948_driver)
+[9.225s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/icm20948_driver' for CMake module files
+[9.228s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/icm20948_driver' for CMake config files
+[9.230s] Level 1:colcon.colcon_core.shell:create_environment_hook('icm20948_driver', 'cmake_prefix_path')
+[9.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/voiture2A-ros/install/icm20948_driver/share/icm20948_driver/hook/cmake_prefix_path.ps1'
+[9.234s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/voiture2A-ros/install/icm20948_driver/share/icm20948_driver/hook/cmake_prefix_path.dsv'
+[9.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/voiture2A-ros/install/icm20948_driver/share/icm20948_driver/hook/cmake_prefix_path.sh'
+[9.239s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/icm20948_driver/lib'
+[9.239s] Level 1:colcon.colcon_core.shell:create_environment_hook('icm20948_driver', 'ld_library_path_lib')
+[9.240s] INFO:colcon.colcon_core.shell:Creating environment hook '/voiture2A-ros/install/icm20948_driver/share/icm20948_driver/hook/ld_library_path_lib.ps1'
+[9.243s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/voiture2A-ros/install/icm20948_driver/share/icm20948_driver/hook/ld_library_path_lib.dsv'
+[9.244s] INFO:colcon.colcon_core.shell:Creating environment hook '/voiture2A-ros/install/icm20948_driver/share/icm20948_driver/hook/ld_library_path_lib.sh'
+[9.247s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/icm20948_driver/bin'
+[9.247s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/icm20948_driver/lib/pkgconfig/icm20948_driver.pc'
+[9.248s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/icm20948_driver/lib/python3.10/site-packages'
+[9.248s] Level 1:colcon.colcon_core.shell:create_environment_hook('icm20948_driver', 'pythonpath')
+[9.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/voiture2A-ros/install/icm20948_driver/share/icm20948_driver/hook/pythonpath.ps1'
+[9.252s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/voiture2A-ros/install/icm20948_driver/share/icm20948_driver/hook/pythonpath.dsv'
+[9.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/voiture2A-ros/install/icm20948_driver/share/icm20948_driver/hook/pythonpath.sh'
+[9.257s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/icm20948_driver/bin'
+[9.259s] INFO:colcon.colcon_core.shell:Creating package script '/voiture2A-ros/install/icm20948_driver/share/icm20948_driver/package.ps1'
+[9.262s] INFO:colcon.colcon_core.shell:Creating package descriptor '/voiture2A-ros/install/icm20948_driver/share/icm20948_driver/package.dsv'
+[9.266s] INFO:colcon.colcon_core.shell:Creating package script '/voiture2A-ros/install/icm20948_driver/share/icm20948_driver/package.sh'
+[9.269s] INFO:colcon.colcon_core.shell:Creating package script '/voiture2A-ros/install/icm20948_driver/share/icm20948_driver/package.bash'
+[9.271s] INFO:colcon.colcon_core.shell:Creating package script '/voiture2A-ros/install/icm20948_driver/share/icm20948_driver/package.zsh'
+[9.309s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/voiture2A-ros/install/icm20948_driver/share/colcon-core/packages/icm20948_driver)
+[9.674s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/voiture2A-ros/build/voiture2a_motors_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /voiture2A-ros/build/voiture2a_motors_driver -- -j16 -l16
+[9.678s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/voiture2A-ros/build/voiture2a_motors_driver': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --install /voiture2A-ros/build/voiture2a_motors_driver
+[10.142s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(voiture2a_motors_driver)
+[10.144s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/voiture2a_motors_driver' for CMake module files
+[10.145s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/voiture2A-ros/build/voiture2a_motors_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --install /voiture2A-ros/build/voiture2a_motors_driver
+[10.147s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/voiture2a_motors_driver' for CMake config files
+[10.149s] Level 1:colcon.colcon_core.shell:create_environment_hook('voiture2a_motors_driver', 'cmake_prefix_path')
+[10.150s] INFO:colcon.colcon_core.shell:Creating environment hook '/voiture2A-ros/install/voiture2a_motors_driver/share/voiture2a_motors_driver/hook/cmake_prefix_path.ps1'
+[10.153s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/voiture2A-ros/install/voiture2a_motors_driver/share/voiture2a_motors_driver/hook/cmake_prefix_path.dsv'
+[10.154s] INFO:colcon.colcon_core.shell:Creating environment hook '/voiture2A-ros/install/voiture2a_motors_driver/share/voiture2a_motors_driver/hook/cmake_prefix_path.sh'
+[10.157s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/voiture2a_motors_driver/lib'
+[10.158s] Level 1:colcon.colcon_core.shell:create_environment_hook('voiture2a_motors_driver', 'ld_library_path_lib')
+[10.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/voiture2A-ros/install/voiture2a_motors_driver/share/voiture2a_motors_driver/hook/ld_library_path_lib.ps1'
+[10.161s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/voiture2A-ros/install/voiture2a_motors_driver/share/voiture2a_motors_driver/hook/ld_library_path_lib.dsv'
+[10.163s] INFO:colcon.colcon_core.shell:Creating environment hook '/voiture2A-ros/install/voiture2a_motors_driver/share/voiture2a_motors_driver/hook/ld_library_path_lib.sh'
+[10.164s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/voiture2a_motors_driver/bin'
+[10.165s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/voiture2a_motors_driver/lib/pkgconfig/voiture2a_motors_driver.pc'
+[10.166s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/voiture2a_motors_driver/lib/python3.10/site-packages'
+[10.166s] Level 1:colcon.colcon_core.shell:create_environment_hook('voiture2a_motors_driver', 'pythonpath')
+[10.167s] INFO:colcon.colcon_core.shell:Creating environment hook '/voiture2A-ros/install/voiture2a_motors_driver/share/voiture2a_motors_driver/hook/pythonpath.ps1'
+[10.169s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/voiture2A-ros/install/voiture2a_motors_driver/share/voiture2a_motors_driver/hook/pythonpath.dsv'
+[10.171s] INFO:colcon.colcon_core.shell:Creating environment hook '/voiture2A-ros/install/voiture2a_motors_driver/share/voiture2a_motors_driver/hook/pythonpath.sh'
+[10.173s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/voiture2a_motors_driver/bin'
+[10.175s] INFO:colcon.colcon_core.shell:Creating package script '/voiture2A-ros/install/voiture2a_motors_driver/share/voiture2a_motors_driver/package.ps1'
+[10.178s] INFO:colcon.colcon_core.shell:Creating package descriptor '/voiture2A-ros/install/voiture2a_motors_driver/share/voiture2a_motors_driver/package.dsv'
+[10.181s] INFO:colcon.colcon_core.shell:Creating package script '/voiture2A-ros/install/voiture2a_motors_driver/share/voiture2a_motors_driver/package.sh'
+[10.183s] INFO:colcon.colcon_core.shell:Creating package script '/voiture2A-ros/install/voiture2a_motors_driver/share/voiture2a_motors_driver/package.bash'
+[10.185s] INFO:colcon.colcon_core.shell:Creating package script '/voiture2A-ros/install/voiture2a_motors_driver/share/voiture2a_motors_driver/package.zsh'
+[10.186s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/voiture2A-ros/install/voiture2a_motors_driver/share/colcon-core/packages/voiture2a_motors_driver)
+[10.190s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(voiture2a_motors_driver)
+[10.191s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/voiture2a_motors_driver' for CMake module files
+[10.193s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/voiture2a_motors_driver' for CMake config files
+[10.195s] Level 1:colcon.colcon_core.shell:create_environment_hook('voiture2a_motors_driver', 'cmake_prefix_path')
+[10.196s] INFO:colcon.colcon_core.shell:Creating environment hook '/voiture2A-ros/install/voiture2a_motors_driver/share/voiture2a_motors_driver/hook/cmake_prefix_path.ps1'
+[10.199s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/voiture2A-ros/install/voiture2a_motors_driver/share/voiture2a_motors_driver/hook/cmake_prefix_path.dsv'
+[10.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/voiture2A-ros/install/voiture2a_motors_driver/share/voiture2a_motors_driver/hook/cmake_prefix_path.sh'
+[10.204s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/voiture2a_motors_driver/lib'
+[10.204s] Level 1:colcon.colcon_core.shell:create_environment_hook('voiture2a_motors_driver', 'ld_library_path_lib')
+[10.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/voiture2A-ros/install/voiture2a_motors_driver/share/voiture2a_motors_driver/hook/ld_library_path_lib.ps1'
+[10.207s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/voiture2A-ros/install/voiture2a_motors_driver/share/voiture2a_motors_driver/hook/ld_library_path_lib.dsv'
+[10.209s] INFO:colcon.colcon_core.shell:Creating environment hook '/voiture2A-ros/install/voiture2a_motors_driver/share/voiture2a_motors_driver/hook/ld_library_path_lib.sh'
+[10.212s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/voiture2a_motors_driver/bin'
+[10.212s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/voiture2a_motors_driver/lib/pkgconfig/voiture2a_motors_driver.pc'
+[10.213s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/voiture2a_motors_driver/lib/python3.10/site-packages'
+[10.213s] Level 1:colcon.colcon_core.shell:create_environment_hook('voiture2a_motors_driver', 'pythonpath')
+[10.214s] INFO:colcon.colcon_core.shell:Creating environment hook '/voiture2A-ros/install/voiture2a_motors_driver/share/voiture2a_motors_driver/hook/pythonpath.ps1'
+[10.216s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/voiture2A-ros/install/voiture2a_motors_driver/share/voiture2a_motors_driver/hook/pythonpath.dsv'
+[10.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/voiture2A-ros/install/voiture2a_motors_driver/share/voiture2a_motors_driver/hook/pythonpath.sh'
+[10.220s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/voiture2a_motors_driver/bin'
+[10.222s] INFO:colcon.colcon_core.shell:Creating package script '/voiture2A-ros/install/voiture2a_motors_driver/share/voiture2a_motors_driver/package.ps1'
+[10.225s] INFO:colcon.colcon_core.shell:Creating package descriptor '/voiture2A-ros/install/voiture2a_motors_driver/share/voiture2a_motors_driver/package.dsv'
+[10.229s] INFO:colcon.colcon_core.shell:Creating package script '/voiture2A-ros/install/voiture2a_motors_driver/share/voiture2a_motors_driver/package.sh'
+[10.232s] INFO:colcon.colcon_core.shell:Creating package script '/voiture2A-ros/install/voiture2a_motors_driver/share/voiture2a_motors_driver/package.bash'
+[10.234s] INFO:colcon.colcon_core.shell:Creating package script '/voiture2A-ros/install/voiture2a_motors_driver/share/voiture2a_motors_driver/package.zsh'
+[10.236s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/voiture2A-ros/install/voiture2a_motors_driver/share/colcon-core/packages/voiture2a_motors_driver)
+[10.270s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/notre_package' for CMake module files
+[10.273s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/voiture2A-ros/src/notre_package' returned '0': PYTHONPATH=/voiture2A-ros/build/notre_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/voiture2A-ros/install/notre_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/notre_package build --build-base /voiture2A-ros/build/notre_package/build install --record /voiture2A-ros/build/notre_package/install.log --single-version-externally-managed install_data
+[10.274s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/notre_package' for CMake config files
+[10.276s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/notre_package/lib'
+[10.277s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/notre_package/bin'
+[10.277s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/notre_package/lib/pkgconfig/notre_package.pc'
+[10.278s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/notre_package/lib/python3.10/site-packages'
+[10.278s] Level 1:colcon.colcon_core.shell:create_environment_hook('notre_package', 'pythonpath')
+[10.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/voiture2A-ros/install/notre_package/share/notre_package/hook/pythonpath.ps1'
+[10.281s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/voiture2A-ros/install/notre_package/share/notre_package/hook/pythonpath.dsv'
+[10.283s] INFO:colcon.colcon_core.shell:Creating environment hook '/voiture2A-ros/install/notre_package/share/notre_package/hook/pythonpath.sh'
+[10.285s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/notre_package/bin'
+[10.285s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(notre_package)
+[10.287s] INFO:colcon.colcon_core.shell:Creating package script '/voiture2A-ros/install/notre_package/share/notre_package/package.ps1'
+[10.289s] INFO:colcon.colcon_core.shell:Creating package descriptor '/voiture2A-ros/install/notre_package/share/notre_package/package.dsv'
+[10.291s] INFO:colcon.colcon_core.shell:Creating package script '/voiture2A-ros/install/notre_package/share/notre_package/package.sh'
+[10.295s] INFO:colcon.colcon_core.shell:Creating package script '/voiture2A-ros/install/notre_package/share/notre_package/package.bash'
+[10.296s] INFO:colcon.colcon_core.shell:Creating package script '/voiture2A-ros/install/notre_package/share/notre_package/package.zsh'
+[10.297s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/voiture2A-ros/install/notre_package/share/colcon-core/packages/notre_package)
+[10.300s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/calibration' for CMake module files
+[10.304s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/voiture2A-ros/src/calibration' returned '0': PYTHONPATH=/voiture2A-ros/build/calibration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/voiture2A-ros/install/calibration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/calibration build --build-base /voiture2A-ros/build/calibration/build install --record /voiture2A-ros/build/calibration/install.log --single-version-externally-managed install_data
+[10.305s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/calibration' for CMake config files
+[10.306s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/calibration/lib'
+[10.307s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/calibration/bin'
+[10.307s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/calibration/lib/pkgconfig/calibration.pc'
+[10.308s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/calibration/lib/python3.10/site-packages'
+[10.308s] Level 1:colcon.colcon_core.shell:create_environment_hook('calibration', 'pythonpath')
+[10.309s] INFO:colcon.colcon_core.shell:Creating environment hook '/voiture2A-ros/install/calibration/share/calibration/hook/pythonpath.ps1'
+[10.312s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/voiture2A-ros/install/calibration/share/calibration/hook/pythonpath.dsv'
+[10.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/voiture2A-ros/install/calibration/share/calibration/hook/pythonpath.sh'
+[10.317s] Level 1:colcon.colcon_core.environment:checking '/voiture2A-ros/install/calibration/bin'
+[10.317s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(calibration)
+[10.318s] INFO:colcon.colcon_core.shell:Creating package script '/voiture2A-ros/install/calibration/share/calibration/package.ps1'
+[10.320s] INFO:colcon.colcon_core.shell:Creating package descriptor '/voiture2A-ros/install/calibration/share/calibration/package.dsv'
+[10.322s] INFO:colcon.colcon_core.shell:Creating package script '/voiture2A-ros/install/calibration/share/calibration/package.sh'
+[10.324s] INFO:colcon.colcon_core.shell:Creating package script '/voiture2A-ros/install/calibration/share/calibration/package.bash'
+[10.326s] INFO:colcon.colcon_core.shell:Creating package script '/voiture2A-ros/install/calibration/share/calibration/package.zsh'
+[10.328s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/voiture2A-ros/install/calibration/share/colcon-core/packages/calibration)
+[10.329s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.332s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.332s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.333s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.351s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[10.352s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.352s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.352s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.354s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[10.355s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.357s] INFO:colcon.colcon_core.shell:Creating prefix script '/voiture2A-ros/install/local_setup.ps1'
+[10.362s] INFO:colcon.colcon_core.shell:Creating prefix util module '/voiture2A-ros/install/_local_setup_util_ps1.py'
+[10.370s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/voiture2A-ros/install/setup.ps1'
+[10.374s] INFO:colcon.colcon_core.shell:Creating prefix script '/voiture2A-ros/install/local_setup.sh'
+[10.376s] INFO:colcon.colcon_core.shell:Creating prefix util module '/voiture2A-ros/install/_local_setup_util_sh.py'
+[10.378s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/voiture2A-ros/install/setup.sh'
+[10.382s] INFO:colcon.colcon_core.shell:Creating prefix script '/voiture2A-ros/install/local_setup.bash'
+[10.384s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/voiture2A-ros/install/setup.bash'
+[10.387s] INFO:colcon.colcon_core.shell:Creating prefix script '/voiture2A-ros/install/local_setup.zsh'
+[10.389s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/voiture2A-ros/install/setup.zsh'

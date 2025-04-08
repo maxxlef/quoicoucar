@@ -1,0 +1,3 @@
+[console_scripts]
+calibration_node = calibration.calibration_node:main
+
