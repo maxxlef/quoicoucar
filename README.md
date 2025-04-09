@@ -1,6 +1,6 @@
 # voiture2A-ros
 
-## Structure des fichiers
+## 🗂️ Structure des fichiers
 
 📁 **docker/**
   - 📝 `build_arm.sh`
@@ -51,7 +51,7 @@
           - 📝 `waypoint.py`
 
 
-## Node architecture
+## 🏛️ Node architecture
 
 ![description de l'image](images/architecture.png)
 
@@ -67,10 +67,10 @@ Voir [icm20948_driver](./src/icm20948_driver/README.md) package
 ### Nos nodes (Localisation, Mission, Control)
 Voir [notre_package](./src/notre_package/README.md)
 
-## Docker
+## 🐳 Docker
 On utilise docker pour éviter de compiler sur la rasberry pi. On utilise donc le fichier `build_arm.sh` pour compiler notre programme sur arm64. On obtient ainsi un dossier .arm65 qui contient le résultat de la compilation. Ainsi le fichier .arm64/install peut être envoyé sur la rasberry pi pour être utilisé avec ROS2.
 
-## Simulation avec CoppeliaSim
+## 💻 Simulation avec CoppeliaSim
 - Ouvrir CoppeliaSim depuis le terminal
 - Ouvrir la scène Simulation/tricycle-cadROS.ttt
 - Aller dans le dossier Simulation/ws_ros et faire un colcon build puis source install/setup.bash
@@ -80,41 +80,57 @@ On utilise docker pour éviter de compiler sur la rasberry pi. On utilise donc l
 ros2 launch notre_package multi_launch.py
 ```
 
-### Schéma du Contrôleur de Suivi de Ligne
+### 🧭 Schéma du Contrôleur de Suivi de Ligne
 
-#### 1. Entrées du système :
-- Position actuelle du robot : $ (x, y, \text{yaw}) $
-- Waypoints définissant la trajectoire : $ A(A_x, A_y) $, $ B(B_x, B_y) $
+#### 1. Entrées du système
 
-#### 2. Calcul de la direction de la ligne :
-- Vecteur directeur de la ligne :
-  $$ \overrightarrow{AB} = (B_x - A_x, B_y - A_y) $$
-- Cap de la ligne (orientation désirée sans correction) :
-  $$ \varphi = -\arctan2(B_y - A_y, B_x - A_x) $$
+- **Position actuelle du robot** : (x, y, yaw)
+- **Waypoints définissant la trajectoire** :  
+  - Point A : (Ax, Ay)  
+  - Point B : (Bx, By)
 
-#### 3. Calcul de l'erreur latérale :
-- Normalisation du vecteur :
-  $$ \mathbf{n} = \frac{\overrightarrow{AB}}{||\overrightarrow{AB}||} $$
-- Distance latérale du robot par rapport à la droite :
-  $$ e = n_x (y - A_y) - n_y (x - A_x) $$
+---
 
-#### 4. Correction de l'orientation :
-- Gain de correction de l'erreur latérale : $ K_p $
-- Gain de correction de l'orientation : $ K_{steering} $
-- Cap désiré avec correction :
-  $$ \theta_d = \varphi - K_p \tanh\left(\frac{e}{K_{steering}}\right) $$
-- Erreur d'orientation :
-  $$ \text{error\_heading} = \theta_d - \text{yaw} $$
+#### 2. Calcul de la direction de la ligne
 
-#### 5. Contrôle de la vitesse :
-- Commande de direction avec saturation à $ \pm 60^\circ $ :
-  $$ \delta = \text{clip}(-\text{error\_heading}, -\frac{\pi}{3}, \frac{\pi}{3}) $$
-- Vitesse linéaire fixe :
-  $$ v = 0.2 \text{ m/s} $$
+- **Vecteur directeur AB** = (Bx - Ax, By - Ay)
+- **Cap de la ligne (orientation visée sans correction)** :  
+  phi = -arctan2(By - Ay, Bx - Ax)
 
-#### 6. Sorties :
-- **Commande de position angulaire** : $ \delta $ (commande de rotation)
-- **Commande de vitesse linéaire** : $ v $ (avance du robot)
+---
+
+#### 3. Calcul de l’erreur latérale
+
+- **Vecteur normalisé n** = AB / ||AB||
+- **Erreur latérale e** = nx * (y - Ay) - ny * (x - Ax)
+
+---
+
+#### 4. Correction de l’orientation
+
+- **Gains de correction** :  
+  - Kp : gain proportionnel pour l’erreur latérale  
+  - Ksteering : paramètre de lissage
+- **Cap désiré corrigé** :  
+  theta_d = phi - Kp * tanh(e / Ksteering)
+- **Erreur d’orientation** :  
+  error_heading = theta_d - yaw
+
+---
+
+#### 5. Contrôle de la vitesse
+
+- **Commande de direction (saturée à ±60°)** :  
+  delta = clip(-error_heading, -pi/3, pi/3)
+- **Vitesse linéaire constante** :  
+  v = 0.2 m/s
+
+---
+
+#### 6. Sorties
+
+- **Commande angulaire (direction)** : delta
+- **Commande linéaire (avance)** : v
 
 **Résumé du fonctionnement** :  
 1. Le robot calcule la ligne reliant les waypoints.  
@@ -123,7 +139,7 @@ ros2 launch notre_package multi_launch.py
 4. Il applique une commande de rotation et avance avec une vitesse constante.
 
 
-## Implémentation sur la voiture réelle 
+## 🚗 Implémentation sur la voiture réelle 
 Avant de pouvoir utiliser la voiture il faut calibrer le magnétomètre, étalonner le servomoteur et choisir les points GPS que la voiture devra suivre.
 ### Calibration du magnétomètre
 - Se placer dans une zone sans perturbation du champs magnétique (à l'extérieur dans un jardin par exemple)
