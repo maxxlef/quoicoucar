@@ -1,8 +1,0 @@
-{
-  "package_name": "icm20948_driver",
-  "non_idl_tuples": [
-    "/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver:msg/RPY.msg",
-    "/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver:msg/RawData.msg",
-    "/home/maxime/Documents/ENSTA/UE4.1_ROS/voiture2A-ros-main/src/icm20948_driver:msg/DebugFusion.msg"
-  ]
-}

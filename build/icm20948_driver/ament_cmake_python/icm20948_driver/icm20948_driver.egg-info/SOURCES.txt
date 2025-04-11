@@ -1,6 +1,0 @@
-setup.py
-icm20948_driver/__init__.py
-icm20948_driver.egg-info/PKG-INFO
-icm20948_driver.egg-info/SOURCES.txt
-icm20948_driver.egg-info/dependency_links.txt
-icm20948_driver.egg-info/top_level.txt
