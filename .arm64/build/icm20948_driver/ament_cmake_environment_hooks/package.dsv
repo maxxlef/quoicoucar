@@ -1,4 +1,0 @@
-source;share/icm20948_driver/local_setup.bash
-source;share/icm20948_driver/local_setup.dsv
-source;share/icm20948_driver/local_setup.sh
-source;share/icm20948_driver/local_setup.zsh

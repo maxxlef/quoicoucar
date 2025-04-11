@@ -1,6 +1,0 @@
-{
-  "package_name": "gpsd_client",
-  "non_idl_tuples": [
-    "/voiture2A-ros/src/gpsd_client:msg/GpsFix.msg"
-  ]
-}

@@ -1,8 +1,0 @@
-setup.py
-gpsd_client/__init__.py
-gpsd_client.egg-info/PKG-INFO
-gpsd_client.egg-info/SOURCES.txt
-gpsd_client.egg-info/dependency_links.txt
-gpsd_client.egg-info/top_level.txt
-gpsd_client/msg/__init__.py
-gpsd_client/msg/_gps_fix.py

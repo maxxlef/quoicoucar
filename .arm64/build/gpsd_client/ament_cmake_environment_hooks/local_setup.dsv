@@ -1,4 +1,0 @@
-source;share/gpsd_client/environment/ament_prefix_path.sh
-source;share/gpsd_client/environment/library_path.sh
-source;share/gpsd_client/environment/path.sh
-source;share/gpsd_client/environment/pythonpath.sh

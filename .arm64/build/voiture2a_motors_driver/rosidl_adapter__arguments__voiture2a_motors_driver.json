@@ -1,7 +1,0 @@
-{
-  "package_name": "voiture2a_motors_driver",
-  "non_idl_tuples": [
-    "/voiture2A-ros/src/voiture2a_motors_driver:msg/MotorsState.msg",
-    "/voiture2A-ros/src/voiture2a_motors_driver:msg/Engine.msg"
-  ]
-}

@@ -1,6 +1,0 @@
-Invoking command in '/voiture2A-ros/build/voiture2a_motors_driver': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake /voiture2A-ros/src/voiture2a_motors_driver -DCMAKE_INSTALL_PREFIX=/voiture2A-ros/install/voiture2a_motors_driver
-Invoked command in '/voiture2A-ros/build/voiture2a_motors_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake /voiture2A-ros/src/voiture2a_motors_driver -DCMAKE_INSTALL_PREFIX=/voiture2A-ros/install/voiture2a_motors_driver
-Invoking command in '/voiture2A-ros/build/voiture2a_motors_driver': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /voiture2A-ros/build/voiture2a_motors_driver -- -j16 -l16
-Invoked command in '/voiture2A-ros/build/voiture2a_motors_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /voiture2A-ros/build/voiture2a_motors_driver -- -j16 -l16
-Invoking command in '/voiture2A-ros/build/voiture2a_motors_driver': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --install /voiture2A-ros/build/voiture2a_motors_driver
-Invoked command in '/voiture2A-ros/build/voiture2a_motors_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --install /voiture2A-ros/build/voiture2a_motors_driver

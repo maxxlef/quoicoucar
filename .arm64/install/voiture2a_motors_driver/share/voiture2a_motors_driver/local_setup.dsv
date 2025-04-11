@@ -1,4 +1,0 @@
-source;share/voiture2a_motors_driver/environment/ament_prefix_path.sh
-source;share/voiture2a_motors_driver/environment/library_path.sh
-source;share/voiture2a_motors_driver/environment/path.sh
-source;share/voiture2a_motors_driver/environment/pythonpath.sh

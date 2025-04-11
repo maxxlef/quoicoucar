@@ -1,8 +1,0 @@
-{
-  "package_name": "icm20948_driver",
-  "non_idl_tuples": [
-    "/voiture2A-ros/src/icm20948_driver:msg/RPY.msg",
-    "/voiture2A-ros/src/icm20948_driver:msg/RawData.msg",
-    "/voiture2A-ros/src/icm20948_driver:msg/DebugFusion.msg"
-  ]
-}
