@@ -1,20 +1,20 @@
 # voiture2A-ros
-Ce projet ROS 2 permet de piloter une voiture autonome équipée de capteurs (GNSS, IMU, moteurs) avec une architecture modulaire incluant simulation sous CoppeliaSim et contrôle en temps réel via un contrôleur de suivi de cap.
+Ce projet ROS 2 permet de piloter une voiture autonome équipée de capteurs (GNSS, IMU, moteurs) avec une architecture modulaire incluant simulation sous CoppeliaSim et un suivi d'une série points GPS.
 ## 🏛️ Node architecture
 
 ![description de l'image](images/architecture.png)
 
 ### Motors node
-Voir [voiture2a_motors_driver](./src/voiture2a_motors_driver/README.md) package
+Voir [voiture2a_motors_driver](./src/voiture2a_motors_driver) package
 
 ### GNSS node
-Voir [gpsd client](./src/gpsd_client/README.md) package
+Voir [gpsd client](./src/gpsd_client) package
 
 ### IMU node
-Voir [icm20948_driver](./src/icm20948_driver/README.md) package
+Voir [icm20948_driver](./src/icm20948_driver) package
 
 ### Nos nodes (Localisation, Mission, Control)
-Voir [notre_package](./src/notre_package/README.md)
+Voir [notre_package](./src/notre_package)
 
 ## 🐳 Docker
 On utilise docker pour éviter de compiler sur la rasberry pi. On utilise donc le fichier `build_arm.sh` pour compiler notre programme sur arm64. On obtient ainsi un dossier .arm65 qui contient le résultat de la compilation. Ainsi le fichier .arm64/install peut être envoyé sur la rasberry pi pour être utilisé avec ROS2.
