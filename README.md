@@ -1,56 +1,5 @@
 # voiture2A-ros
-
-## 🗂️ Structure des fichiers
-
-📁 **docker/**
-  - 📝 `build_arm.sh`
-  - 📝 `build_x86_64.sh`
-  - 📝 `run_docker_build.sh`
-
-📁 **build/**
-
-📁 **install/**
-
-📁 **log/**
-
-📁 **src/**
-  - 📁 **gpsd_client/**
-  - 📁 **icm20948_driver/**
-  - 📁 **notre_package/**
-  - 📁 **voiture2a_motors_driver/**
-  - 📁 **calibration/**
-    - 📝 `calibration_node.py`
-    - 📝 `__init__.py`
-    - 📁 **resource/**
-    - 📝 `package.xml`
-    - 📝 `setup.cfg`
-    - 📝 `setup.py`
-
-📁 **Simulation/**
-  - 📝 `bike_control.py`
-  - 📝 `gps.py`
-  - 📝 `gyro.py`
-  - 📝 `imu.py`
-  - 📝 `tricycle-cadROS.ttt`
-  - 📁 **ws_ros/**
-    - 📁 **build/**
-    - 📁 **install/**
-    - 📁 **log/**
-    - 📁 **src/**
-      - 📁 **notre_package/**
-        - 📝 `package.xml`
-        - 📁 **resource/**
-        - 📝 `setup.cfg`
-        - 📝 `setup.py`
-        - 📁 **launch/**
-          - 📝 `multi_launch.py`
-        - 📁 **notre_package/**
-          - 📝 `control.py`
-          - 📝 `__init__.py`
-          - 📝 `localization.py`
-          - 📝 `waypoint.py`
-
-
+Ce projet ROS 2 permet de piloter une voiture autonome équipée de capteurs (GNSS, IMU, moteurs) avec une architecture modulaire incluant simulation sous CoppeliaSim et contrôle en temps réel via un contrôleur de suivi de cap.
 ## 🏛️ Node architecture
 
 ![description de l'image](images/architecture.png)
