@@ -109,7 +109,7 @@ ros2 run voiture2a_motors_driver motors_node
 - Obtenir la commande nécessaire pour avoir un angle de -pi/4
 - Compléter le code `src/notre_package/notre_package/control.py` ligne 77
 
-##### Remarque: Il est possible que la connexion à une télécommande soit nécessaire
+##### Remarque : Il est possible que la connexion à une télécommande soit nécessaire
  
  ### Choix des points GPS
  Il suffit de compléter la liste dans le fichier `src/notre_package/notre_package/waypoint.py` ligne 38
